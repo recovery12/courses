@@ -1,0 +1,45 @@
+<html>
+
+   <head>
+      <h1> A simple calculator </h1>
+   </head>
+
+   <body>
+      <script type=text/javascript>
+         function fun(x)
+         {
+            calcy.textbox.value += x;
+         }
+         function compute()
+         {
+            var ans;
+
+            ans = eval(calcy.textbox.value);
+            alert("The given answer is "+ans);
+         }
+      </script>
+   </body>
+
+   <form name=calcy onsubmit=compute()>
+      <input type=text name=textbox value="">
+      <input type=submit name=button value=compute>
+   </form>
+   <button type=button onclick=fun(1) align=center> 1 </button>
+   <button type=button onclick=fun(2) align=center> 2 </button>
+   <button type=button onclick=fun(3) align=center> 3 </button>
+   <button type=button onclick=fun(0) align=center> 0 </button>
+   <button type=button onclick=fun("-") align=center> - </button>
+   <br>
+   <button type=button onclick=fun(4) align=center> 4 </button>
+   <button type=button onclick=fun(5) align=center> 5 </button>
+   <button type=button onclick=fun(6) align=center> 6 </button>
+   <button type=button onclick=fun(".") align=center> . </button>
+   <button type=button onclick=fun("*") align=center> * </button>
+   <br>
+   <button type=button onclick=fun(7) align=center> 7 </button>
+   <button type=button onclick=fun(8) align=center> 8 </button>
+   <button type=button onclick=fun(9) align=center> 9 </button>
+   <button type=button onclick=fun("+") align=center> + </button>
+   <button type=button onclick=fun("/") align=center> / </button>
+   <br>
+</html>

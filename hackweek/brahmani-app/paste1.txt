@@ -1,0 +1,1 @@
+To paste two files:\n $ paste linux.txt unix.txt\n  \n To paste two files with a delimiter:\n $ paste -d \":\" unix.txt linux.txt

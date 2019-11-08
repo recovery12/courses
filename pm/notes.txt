@@ -1,0 +1,16 @@
+objdump is used to display the assembly language and machine language from the executeable file.
+The command used is objdump -D ./<filename> | grep -A20 main.:
+
+The grep part displays only the first 20 lies of the code.
+There are 2 syntax's AT&T and intel, if u find % and $ that is AT&T ones otherwise it is intel syntax intel syntax is more readable
+
+For intel syntax command  is objdump -M intel -D ./<filename> | grep -A20 main.:
+
+Using gdb we get much more information 
+~$ gdb -q ./hello
+set the breakpoint and run then for the register variables type info registers
+
+In that the first four are called as general purpose variables (EAX,ECX,EDX,EBX)
+They are also called as accumulator,counter,data,base they are temporary variables for the CPU.
+
+the next four are also called as general purpose variables (ESP,EBP,ESI,EDI) but they are sometimes knoen as pointers and indexes they are also called as stack pointer, base pointer, source index, destination index.

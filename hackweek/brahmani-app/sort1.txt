@@ -1,0 +1,1 @@
+ Basic sort command:\n $ sort unix.txt\n  \n Sorting in reverse order:\n $ sort -r unix.txt\n  \n To sort numerically:\n $ sort -n unix.txt\n  \n To sort basing on the second line:\n $ sort -k2 filename.txt\n  \n To sort basing on Months:\n$ sort -M unix.txt

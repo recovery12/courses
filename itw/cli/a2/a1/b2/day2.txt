@@ -1,0 +1,1 @@
+head,tail,find,grep,whereis,which,du,df,sort,cut,paste,uniq,ps,kill,touch,diff

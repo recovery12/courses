@@ -1,0 +1,18 @@
+h1
+{
+    font-family: sans-serif;
+    color: darkviolet;
+}
+
+body
+{
+    background-color: aquamarine;
+}
+
+div.info
+{
+    box-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: blueviolet;
+}

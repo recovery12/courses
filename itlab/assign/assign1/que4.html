@@ -1,0 +1,37 @@
+<html>
+   <head>
+      <h1> Sorted pairs </h1>
+   </head>
+
+   <body>
+      Enter the elements of array separated with spaces.
+      <script type=text/javascript>
+         function prefix_sum()
+         {
+            var i, j, tmp, count = 0;
+            var arr = prefix.arrays.value;
+            var arr1 = [];
+
+            arr = arr.split(" ");
+
+            for (i = 0; i < arr.length; i++)
+            {
+               for (j = i+1; j < arr.length; j++)
+               {
+                  if (arr[j]%arr[i] == 0)
+                  {
+                     count = count + 1
+                     arr1.push("("+arr[i]+", "+arr[j]+")")
+                  }
+               }
+            }
+            alert("["+arr+"] -> "+count+" - "+arr1);
+         }
+      </script> 
+   </body>
+
+   <form name=prefix onsubmit=prefix_sum()>
+      <input type=text style=width:500px name=arrays value="">
+      <input type=submit name=button value=Compute>
+   </form>
+</html>

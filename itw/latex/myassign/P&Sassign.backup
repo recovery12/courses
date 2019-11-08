@@ -1,0 +1,100 @@
+\documentclass{article}
+\usepackage{latexsym,amsmath,amssymb,textcomp}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+
+\title{Probability and Stastics}
+\author{P.Anurag}
+\date{\today}
+
+\pdfinfo{%
+  /Title    (P & S)
+  /Author   (P.Anurag)
+  /Creator  ()
+  /Producer ()
+  /Subject  (Distributions)
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\section{Tables}
+\subsection[]{Distribution Tables}
+
+\begin{table}
+ \centering
+ \caption{Properties of Discrete Distribution}
+ \begin{tabular}{||c||c||c||c||c||}
+ \hline
+ \hline
+ {\bf Distribution} & {\bf \begin{tabular}{@{}c@{}}
+                              Probability \\ Mass \\Function
+                            \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                     Probability \\ Generating \\ Function
+                                                   \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                           Moment \\ Generating \\ Function
+                                                                          \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                                                  Characteristic \\ Function
+                                                                                                 \end{tabular}} \\
+  \hline
+  \hline
+  Bernoulli & $ p^x(1-p)^{1-x} $ & $ q+pz $ & $ q+pe^t $ & $ q+pe^{it} $ \\ 
+  \hline
+  \hline
+  Binomial  & $ \binom nk p^k(1-p)^{n-k} $  & $ [(1-p)+pz]^n $ & $ [(1-p)+pe^t]^n $ & $ [(1-p)+pe^{it}]^n $ \\
+  \hline
+  \hline
+  Geometric & $ (1-p)^{k-1}p $   & $ \frac{pt}{1-(1-p)t} $  & $ \frac{pe^t}{1-(1-p)e^t} $ & $ \frac{pe^{it}}{1-(1-p)e^{it}} $ \\
+  \hline
+  \hline
+  \begin{tabular}{@{}c@{}}
+   Negative \\ Binomial
+  \end{tabular} & $ \left( \begin{array}{c}
+                             k-r+1 \\
+                              k    \\
+                    \end{array} \right)(1-p)^rp^k
+  $ & $ (\frac{1-p}{1-pz})^r $ & $ (\frac{1-p}{1-pe^t})^r $ & $ (\frac{1-p}{1-pe^{it}})^r $ \\
+  \hline
+  \hline
+  Poisson & $ \frac{\lambda^ke^{-\lambda}}{k!}  $ & $ e^{\lambda(z-1)} $ & $ e^{\lambda(e^t-1)} $ & $ e^{\lambda(e^{it}-1)} $ \\
+  \hline
+  \hline
+ \end{tabular}
+\end{table}
+
+\begin{table}
+ \centering
+ \caption{Properties of Continous Distribution}
+ \begin{tabular}{||c||c||c||c||c||}
+ \hline
+ \hline
+ {\bf Distribution} & {\bf \begin{tabular}{@{}c@{}}
+                             Probability \\ Density \\ Function
+                            \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                   Probability \\ Generating \\ Function
+                                                  \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                        Moment \\ Generating \\ Function
+                                                                       \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                                             Characteristic \\ Function
+                                                                                            \end{tabular}} \\ 
+ \hline
+ \hline
+  Exponential & & $ \frac{\lambda}{\lambda-logt} $ &  $ \frac{\lambda}{\lambda-t} $ & $ \frac{\lambda}{\lambda-it} $ \\
+  
+
+
+
+
+ \end{tabular}
+
+  
+\end{table}
+
+
+
+
+\end{document}

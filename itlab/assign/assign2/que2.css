@@ -1,0 +1,22 @@
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: bisque;
+}
+
+body
+{
+    background-color: crimson;
+}
+
+div
+{
+    text-align: center;
+}
+
+div#txtboxs
+{
+    font-family: monospace;
+    color: chartreuse;
+}

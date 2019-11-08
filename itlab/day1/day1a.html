@@ -1,0 +1,82 @@
+<html>
+   <title>
+      "Simple static web page"
+   </title>
+   <head>
+      <h1> A Simple web-page </h1>
+      <h2> This is the second heading </h2>
+      <h3> A smaller heading size </h3>
+      <hr> </hr>
+   </head>
+
+   <body>
+      <p> When you want to write multiple lines
+          in your website the you use p tag
+      </p>
+
+      <b> This is a tag for bold text </b>
+      <i> This is for italics </i>
+      <u> This is for underline </u>
+
+      <marquee> This is a scrolling text </marquee>
+
+      <center> Text is center aligned </center>
+      <br> This is a line break </br>
+
+      <ul>
+         <li> Anurag </li>
+         <li> Peddi </li>
+      </ul>
+
+      <pre>
+         *
+         **
+         ***
+         **
+         *
+      </pre>
+      <script type=text/javascript>
+         var a, b, c;
+         a = prompt("Enter the value of a: ");
+         b = prompt("Enter the value of b: ");
+         c = parseInt(a) + parseInt(b);
+         document.write("a + b is "+c);
+      </script>
+
+
+      <table border=4 align=center>
+         <caption> Number and it's square </caption>
+         <th> Number(n) </th>
+         <th> Square(n^2) </th>
+         <tr>
+            <td> 1 </td>
+            <td> 1 </td>
+         </tr>
+         <tr>
+            <td> 2 </td>
+            <td> 4 </td>
+         </tr>
+         <tr>
+            <td> 3 </td>
+            <td> 9 </td>
+         </tr>
+      </table>
+
+      <table border=4 align=center>
+         <caption> Number and it's square </caption>
+         <th> Number(n) </th>
+         <th> Square(n^2) </th>
+         <script type=text/javascript>
+            var i;
+            for (i = 1; i < 10; i++)
+            {
+               document.write("<tr><td>"+i+"</td><td>"+i*i+"</td></tr>")
+            }
+         </script>
+      </table>
+
+      <a href=file:///home/anurag/courses/itlab/day1/day1b.html> click here </a>
+      <img src="images/*"> </img>
+   </body>
+</html>
+

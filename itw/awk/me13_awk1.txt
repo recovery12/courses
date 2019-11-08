@@ -1,0 +1,25 @@
+ 1. Convert ods to csv
+
+ Remove the fisrt two lines by using sed and save it
+  sed '1,2d' amazon.csv
+
+a) sed 's/\$//' amazon.csv | awk -F, '{sum[$1]+=$NF} END { for (subj in sum) print subj, sum[subj]}'
+ 
+b) sed 's/\$//' amazon.csv | awk -F, '$1=="Books" && $3=="Amazon.com" {print $0}' | awk -F, '{sum+=$5} END {print" Books Revenve " sum}'
+
+c) sed 's/\$//' amazon.csv | awk -F, '$3=="Third Party"{print $0}' | awk -F, '{ship+=$4;rev+=$5} END {print ship,rev}'
+
+2. First remove the data of supplementary by using sed and save it
+  sed '47,61d' marks.csv
+
+a) sed '1d' marks.csv | awk -F, '{avg=($8+$9)/2; print "Avg for "$2" is " avg}'
+
+b)sed '1d' marks.csv | awk -F, '{grd[$11]++} 	END {for (i in grd) print i," , " grd[i]}'
+
+
+
+
+
+a) sed '1d' marks.csv | awk -F, '{avg=($8+$9)/2; print "Avg for "$2" is " avg}'
+
+b)sed '1d' marks.csv | awk -F, '{grd[$11]++} 	END {for (i in grd) print i," , " grd[i]}'

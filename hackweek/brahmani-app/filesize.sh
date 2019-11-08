@@ -1,0 +1,1 @@
+#!/bin/bash\n#This script is used to check the file size\nif [ $# -ne 2 ]\nthen\n    echo \" Syntax: filesize.sh <directory> <bytesize>\"\n    exit 1\nfi\nfor file in $1/*\ndo\n    if [ $(du -b $file | awk \'{print $1}\') -ge $2 ]\n    then\n          ls -lh $file\n    else\n          echo \"it is a smaller file than $2 \"\n    fi\ndone 

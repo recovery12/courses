@@ -1,0 +1,55 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{textcomp}
+
+%opening
+\title{
+  \begin{large}
+    Signals \& Systems
+    Assignment No. 6
+  \end{large}
+}
+\author{P.Anurag\\ 17MCME13}
+
+\begin{document}
+
+\maketitle
+
+\section{ write down as a difference equation with non-linearity; take a and c as 5 digit prime numbers and plot output for 1000 values.}
+  \begin{figure}[!hbt]
+    \centering
+      \includegraphics[scale=0.65]{image002.png}
+    \caption{Linear congrential generator}
+  \end{figure}
+
+  \Large{Sol:- }
+  The non-linear function in the above block diagram is modulo. 
+
+\begin{itemize}
+ \item First input is $\mu_k$.
+ \item When it passes through \Large{$\bf{z^{-1}}$}, it becomes $\bf{\mu_{k-1}}$, which is then mulitiplied with 'a' becomes $\bf{a\mu_{k-1}}$.
+ \item And is then added with 'c' results in $\bf{a\mu_{k-1}+c}$.
+ \item Now the input to the modulo function is $\bf{a\mu_{k-1}+c}$. When it is passed through modulo function, the output is $\bf{(a\mu_{k-1}+c)\bmod n}$.
+ \item Hence the difference equation is \[\bf{\mu_k = (a\mu_{k-1}+c)\bmod n}\] where 'a' and 'c' are 5 digit prime numbers and \[ k \in [0, 1000] \]
+\end{itemize}
+
+\Large{\bf{Data points:}}\\
+
+\begin{tabular}[!hbt]{| c | c |}
+\hline
+  \bf{x} & \bf{y} \\
+  \hline
+ 1 & 0\\ 
+ 2 & 0\\  
+ 3 & 99997 \\
+ 4 & 79981 \\
+ 5 & 37828 \\
+ .. & .. \\
+ .. & .. \\
+ \hline
+\end{tabular}
+
+
+\end{document}

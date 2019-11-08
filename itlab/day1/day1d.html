@@ -1,0 +1,36 @@
+<html>
+
+   <head>
+      <h1> Sorting of numbers </h1>
+   </head>
+   <body>
+      <p> Takes unsorted array of elements and displays sorted numbers </p>
+   </body>
+
+   <script type=text/javascript>
+      var arr = [23,1,25,65,21,12,56,43,98,54,32];
+      var i, j, tmp;
+
+      function sort()
+      {
+         document.write("Unsorted array is "+arr+"<br>");
+         for (i = 0; i < arr.length; i++)
+         {
+            for (j = 0; j < arr.length-i-1; j++)
+            {
+               if (arr[j] > arr[j+1])
+               {
+                  tmp = arr[j];
+                  arr[j] = arr[j+1];
+                  arr[j+1] = tmp;
+               }
+            }
+         }
+         document.write("Sorted array is "+arr+"<br>");
+      }
+   </script>
+
+   <form name=sorting onsubmit=sort()>
+      <input type=submit value=sort>
+   </form>
+</html>

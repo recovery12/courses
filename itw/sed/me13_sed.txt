@@ -1,0 +1,21 @@
+1.touch imtech.txt
+  cat >> 17MCME01
+         17MCME02
+         .
+         .
+         .
+         17MCME23
+  sed 's/E/T/' imtech.txt > mtechcs.txt
+
+2.sed -n '/[Uu]nix/p' Unix.txt > u1.txt
+  sed 's/[Uu]nix/Linux/' u1.txt
+
+3. /etc/hosts
+   sed -n '/^\#/p' /etc/hosts > ~/courses/itw/sed/comments.txt
+   sed -n '/^[0-9]/p' /etc/hosts > ~/courses/itw/sed/ipv4.txt
+   sed -n '/^f/p' /etc/hosts > ~/courses/itw/sed/ipv6.txt
+   
+4.touch imtech-2017-marks.csv
+  echo imtech-2017-marks.csv | sed 's/\.csv/\.ods/;s/marks/attend/'	
+
+5.sed -i 's/\<[Oo]pen\ *[Ff]low\>/OpenFlow/g' sed-input.txt

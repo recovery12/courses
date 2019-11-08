@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Search Viz</title>
+
+    <!-- Link to our stylesheet! -->
+    <link rel="stylesheet" href="style.css">
+    <script src="buckets.js"></script>
+
+    <script src="p5.js"></script>
+    <script src="sketch2.js"></script>
+  </head>
+  <body>
+  <h2>Search Viz:</h2>
+  <h5>:hackweek:rprx</h5>
+ <select id="grid_w">
+  <option value="5">5X5</option>
+  <option value="2">2X2</option>
+  <option value="3">3X3</option>
+  <option value="6">6X6</option>
+  <option value="7">7X7</option>
+  <option value="10" selected="selected">10x10</option>
+  <option value="20">20X20</option>
+  <option value="30">30X30</option>
+  <option value="40">40X40</option>
+</select> 
+<button type="submit" id="change" value="change" onclick="set_grid()">CHANGE</button>
+ <select id=move>
+  <option value="4">4 way</option>
+  <option value="8">8 way</option>
+</select> 
+ <select id=algo>
+  <option value="dfs">DFS</option>
+  <option value="bfs">BFS</option>
+  <option value="astar">ASTAR</option>
+</select> 
+<button type="submit" id="solve" value="solve" onclick="solve()">SOLVE</button>
+<div id="sketch-holder">
+
+
+
+</div>
+
+
+
+  </body>
+</html>

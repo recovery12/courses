@@ -1,0 +1,10 @@
+me01 radha 1
+me02 bhardwaj 2
+me03 brahmani 3
+me04 vaishnavi 4
+me05 ojaswy 5
+me06 pranav 6
+me07 subhash 7
+me08 buncy 8
+me09 krishna 9
+me10 mahesh 1

@@ -1,0 +1,35 @@
+<html>
+   <head>
+      <h1> Permutation </h1>
+   </head>
+
+   <body>
+      Enter the elements of array separated with spaces.
+      <script type=text/javascript>
+         function permutation()
+         {
+            var num = parseInt(permut.ints.value);
+            var arr = permut.arrays.value;
+
+            arr = arr.split(" ");
+
+            for (i = 0; i < arr.length; i++)
+            {
+               if (arr[i] == 0 || parseInt(arr[i]) > num)
+               {
+                  alert("Not a permutation");
+                  return;
+               }
+            }
+            alert("Permutation");
+         }
+      </script> 
+   </body>
+
+   <form name=permut onsubmit=permutation()>
+      <input type=text style=width:500px name=arrays value="">
+      <br> </br>
+      <input type=text name=ints value="">
+      <input type=submit name=button value=Compute>
+   </form>
+</html>

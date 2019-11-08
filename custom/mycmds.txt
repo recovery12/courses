@@ -1,0 +1,6 @@
+Customized commands
+
+1. txt2pdf: Converts any file to pdf
+2. dir2pdf
+   dir2pdf.py: Merges all the pdfs in a dir into one
+3. auto_login.py (/etc/profile.d): Automatically logins in uni login-page.

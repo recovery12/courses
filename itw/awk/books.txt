@@ -1,0 +1,658 @@
+Books,100 Minds That Made the Market (Fisher Investments Press),Amazon.com,1,13.57
+Books,1001 Natural Wonders You Must See Before You Die: UNESCO Edition,Amazon.com,1,23.10
+Books,1001 Paintings You Must See Before You Die,Amazon.com,1,24.39
+Books,2 Over 1 Game Force (The Official Better Bridge),Amazon.com,1,13.57
+Books,92 Pacific Boulevard (Cedar Cove),Amazon.com,1,7.99
+Books,A Bold Fresh Piece of Humanity,Amazon.com,1,15.60
+Books,A Charlie Brown Thanksgiving (Peanuts),Amazon.com,1,4.95
+Books,A Good Man in Africa: A Novel,Amazon.com,1,10.85
+Books,A Guide to Microsoft Excel 2007 for Scientists and Engineers,Amazon.com,1,25.80
+Books,A Madman Dreams of Turing Machines,Amazon.com,1,10.94
+Books,Access 2003 Bible,Amazon.com,1,31.49
+Books,Access 2007 All-in-One Desk Reference For Dummies,Amazon.com,1,19.79
+Books,Access 2007 For Dummies,Amazon.com,1,14.29
+Books,Access 2007 VBA Bible: For Data-Centric Microsoft Office Applications,Amazon.com,1,26.39
+Books,Access 2007 VBA Programmer's Reference (Programmer to Programmer),Amazon.com,1,26.39
+Books,Access 2007 VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Access 2007 VBA Programming For Dummies,Amazon.com,1,8.25
+Books,Access 2007: The Missing Manual,Amazon.com,1,23.09
+Books,Access VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Accounting For Dummies,Amazon.com,1,14.95
+Books,Adobe Acrobat 9 Classroom in a Book,Amazon.com,1,37.79
+Books,Alice's Adventures in Wonderland and Through the Looking Glass (Signet Classics),Amazon.com,1,3.95
+Books,Alison Balter's Mastering Microsoft Office Access 2007 Development,Amazon.com,1,40.94
+Books,All New Square Foot Gardening,Amazon.com,1,11.99
+Books,An Abundance of Katherines,Amazon.com,1,7.99
+Books,Annapurna,Amazon.com,1,11.53
+Books,Arabian Sands (Penguin Classics),Amazon.com,1,10.20
+Books,Art Journals and Creative Healing: Restoring the Spirit Through Self-Expression,Amazon.com,1,16.49
+Books,Balanced Scorecards & Operational Dashboards with Microsoft Excel,Amazon.com,1,31.49
+Books,Beat the Reaper: A Novel,Amazon.com,1,15.74
+Books,Becoming an Interior Designer: A Guide to Careers in Design,Amazon.com,1,26.37
+Books,Bent Objects: The Secret Life of Everyday Things,Amazon.com,1,12.21
+Books,Blinding Light: A Novel,Amazon.com,1,14.65
+Books,Bookkeeping For Dummies (For Dummies (Business & Personal Finance)),Amazon.com,1,12.99
+Books,Brazilian Jiu-Jitsu: For Experts Only,Amazon.com,1,21.86
+Books,Bridge: 25 Ways to Compete in the Bidding (Bridge (Master Point Press)),Amazon.com,1,12.89
+Books,Building Financial Models (McGraw-Hill Finance & Investing),Amazon.com,1,53.96
+Books,Candide: Or Optimism (Penguin Classics),Amazon.com,1,9.60
+Books,Collapse: How Societies Choose to Fail or Succeed,Amazon.com,1,9.63
+Books,Colonization Violence & Narration: In White South African Writing,Amazon.com,1,26.95
+Books,Conceptual Physical Science (4th Edition),Amazon.com,1,106.31
+Books,Crystal Reports 2008: The Complete Reference (Osborne Complete Reference Series),Amazon.com,1,37.79
+Books,DeMark Indicators (Bloomberg Market Essentials: Technical Analysis),Amazon.com,1,19.77
+Books,Desert Solitaire,Amazon.com,1,10.17
+Books,Dictionary of Banking Terms (Barron's Business Guides),Amazon.com,1,10.19
+Books,Dictionary of Finance and Investment Terms (Barron's Financial Guides),Amazon.com,1,8.92
+Books,Emotional Freedom: Liberate Yourself from Negative Emotions and Transform Your Life,Amazon.com,1,15.89
+Books,Envisioning Information,Amazon.com,1,34.56
+Books,Excel 2000 Formulas,Amazon.com,1,31.64
+Books,Excel 2000 VBA: Programmers Reference (Programmer's Reference),Amazon.com,1,36.26
+Books,Excel 2002 Power Programming with VBA,Amazon.com,1,35.25
+Books,Excel 2002 Power Programming with VBA,Amazon.com,1,32.99
+Books,Excel 2002 VBA: Programmers Reference,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,2,52.78
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,26.39
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 Bible,Amazon.com,1,25.19
+Books,Excel 2003 for Dummies,Amazon.com,1,14.95
+Books,Excel 2003 for Dummies Quick Reference,Amazon.com,1,14.99
+Books,Excel 2003 for Dummies Quick Reference,Amazon.com,1,14.99
+Books,Excel 2003 for Dummies Quick Reference,Amazon.com,1,10.19
+Books,Excel 2003 Formulas,Amazon.com,2,59.38
+Books,Excel 2003 Formulas,Amazon.com,1,34.19
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,29.69
+Books,Excel 2003 Formulas,Amazon.com,1,27.10
+Books,Excel 2003 Formulas,Amazon.com,1,21.14
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2003 VBA Programming with XML and ASP,Amazon.com,1,24.39
+Books,Excel 2007 Advanced Report Development,Amazon.com,1,26.39
+Books,Excel 2007 All-In-One Desk Reference For Dummies,Amazon.com,1,18.89
+Books,Excel 2007 All-In-One Desk Reference For Dummies,Amazon.com,1,18.89
+Books,Excel 2007 All-In-One Desk Reference For Dummies,Amazon.com,1,18.89
+Books,Excel 2007 Bible,Amazon.com,3,79.17
+Books,Excel 2007 Bible,Amazon.com,2,52.78
+Books,Excel 2007 Bible,Amazon.com,2,52.78
+Books,Excel 2007 Bible,Amazon.com,2,50.38
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,26.39
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,1,25.19
+Books,Excel 2007 Bible,Amazon.com,-1,-25.19
+Books,Excel 2007 Bible,Amazon.com,-1,-26.39
+Books,Excel 2007 Charts,Amazon.com,2,59.38
+Books,Excel 2007 Charts,Amazon.com,1,34.19
+Books,Excel 2007 Charts,Amazon.com,1,32.84
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,1,29.69
+Books,Excel 2007 Charts,Amazon.com,-1,-29.69
+Books,Excel 2007 For Dummies,Amazon.com,1,14.29
+Books,Excel 2007 For Dummies,Amazon.com,1,13.29
+Books,Excel 2007 For Dummies,Amazon.com,1,13.29
+Books,Excel 2007 For Dummies Quick Reference,Amazon.com,1,16.65
+Books,Excel 2007 For Dummies Quick Reference,Amazon.com,1,11.55
+Books,Excel 2007 For Dummies Quick Reference,Amazon.com,1,11.55
+Books,Excel 2007 Formulas,Amazon.com,2,59.38
+Books,Excel 2007 Formulas,Amazon.com,2,45.48
+Books,Excel 2007 Formulas,Amazon.com,2,45.48
+Books,Excel 2007 Formulas,Amazon.com,1,29.69
+Books,Excel 2007 Formulas,Amazon.com,1,29.69
+Books,Excel 2007 Formulas,Amazon.com,1,29.69
+Books,Excel 2007 Formulas,Amazon.com,1,29.69
+Books,Excel 2007 Formulas,Amazon.com,1,29.69
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,28.34
+Books,Excel 2007 Formulas,Amazon.com,1,23.05
+Books,Excel 2007 Formulas,Amazon.com,1,22.74
+Books,Excel 2007 Formulas,Amazon.com,1,22.74
+Books,Excel 2007 Formulas,Amazon.com,1,22.74
+Books,Excel 2007 Formulas,Amazon.com,1,22.63
+Books,Excel 2007 Formulas,Amazon.com,1,22.63
+Books,Excel 2007 Formulas,Amazon.com,1,22.63
+Books,Excel 2007 Formulas,Amazon.com,1,22.63
+Books,Excel 2007 Formulas,Amazon.com,1,22.61
+Books,Excel 2007 Formulas,Amazon.com,1,22.61
+Books,Excel 2007 Formulas,Amazon.com,1,20.34
+Books,Excel 2007 Formulas,Amazon.com,1,20.34
+Books,Excel 2007 Formulas,Amazon.com,-1,-22.74
+Books,Excel 2007 Miracles Made Easy: Mr. Excel Reveals 25 Amazing Things You Can Do with the New Excel,Amazon.com,1,22.45
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 PivotTables and PivotCharts,Amazon.com,1,23.09
+Books,Excel 2007 Power Programming with VBA,Amazon.com,3,94.47
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,62.98
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,62.98
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,62.98
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,59.98
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,59.98
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,50.76
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,50.54
+Books,Excel 2007 Power Programming with VBA,Amazon.com,2,50.54
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,36.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,36.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,36.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,31.49
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,29.99
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.62
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.38
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.27
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.15
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.14
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,25.14
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,22.84
+Books,Excel 2007 Power Programming with VBA,Amazon.com,1,22.84
+Books,Excel 2007 Power Programming with VBA,Amazon.com,-1,-25.27
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,15.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,15.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,15.49
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.81
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.63
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.57
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.57
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.57
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.57
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,12.57
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,11.31
+Books,Excel 2007 VBA Programming For Dummies,Amazon.com,1,11.31
+Books,Excel 2007: The Missing Manual,Amazon.com,1,26.39
+Books,Excel 2007: The Missing Manual,Amazon.com,1,26.39
+Books,Excel 97 Bible,Amazon.com,1,23.09
+Books,Excel 97 Programming for Windows for Dummies,Amazon.com,1,24.99
+Books,Excel Advanced Report Development,Amazon.com,1,26.39
+Books,Excel Advanced Report Development,Amazon.com,1,26.39
+Books,Excel Advanced Report Development,Amazon.com,1,26.39
+Books,Excel Advanced Report Development,Amazon.com,1,26.39
+Books,Excel Charts,Amazon.com,1,29.69
+Books,Excel Charts,Amazon.com,1,29.69
+Books,Excel Charts,Amazon.com,1,29.69
+Books,Excel Charts,Amazon.com,1,29.69
+Books,Excel Charts,Amazon.com,1,27.93
+Books,Excel Charts,Amazon.com,1,22.62
+Books,Excel Charts,Amazon.com,1,22.62
+Books,Excel Formulas and Functions For Dummies,Amazon.com,1,16.49
+Books,Excel Gurus Gone Wild: Do the IMPOSSIBLE with Microsoft Excel,Amazon.com,1,16.47
+Books,Excel Hacks: Tips & Tools for Streamlining Your Spreadsheets,Amazon.com,1,19.79
+Books,Excel PivotTables and Charts (Mr Spreadsheet),Amazon.com,1,23.09
+Books,Excel PivotTables and Charts (Mr Spreadsheet),Amazon.com,1,23.09
+Books,Excel VBA Programming For Dummies,Amazon.com,2,31.48
+Books,Excel VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel VBA Programming For Dummies,Amazon.com,1,16.49
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel VBA Programming For Dummies,Amazon.com,1,15.74
+Books,Excel 2003 Formulas,Amazon.com,1,12.00
+Books,Excel 2003 Formulas,Amazon.com,1,12.00
+Books,Excel 2003 Formulas,Amazon.com,1,12.00
+Books,Excel 2003 Formulas,Amazon.com,1,12.00
+Books,Financial Modeling Using Excel and VBA (Wiley Finance),Amazon.com,1,59.85
+Books,Financial Modelling in Practice: A Concise Guide for Intermediate and Advanced Level with CD ROM (The Wiley Finance Series),Amazon.com,1,75.60
+Books,Formulas and Functions with Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,26.39
+Books,Fundamentals of Corporate Finance Alternate Value 8th Edition,Amazon.com,1,139.52
+Books,Gimme My Money Back: Your Guide to Beating the Financial Crisis,Amazon.com,1,10.36
+Books,Google SketchUp Cookbook: Practical Recipes and Essential Techniques,Amazon.com,1,31.49
+Books,Guide to Financial Reporting and Analysis,Amazon.com,1,70.02
+Books,History: A Very Short Introduction (Very Short Introductions),Amazon.com,1,9.56
+Books,"How to Measure Anything: Finding the Value of ""Intangibles"" in Business",Amazon.com,1,28.35
+Books,How to Profit From the Coming Rapture: Getting Ahead When You're Left Behind,Amazon.com,1,11.04
+Books,How to Profit From the Coming Rapture: Getting Ahead When You're Left Behind,Amazon.com,1,10.39
+Books,How to Trade in Stocks,Amazon.com,1,22.76
+Books,If... (Questions For The Game of Life),Amazon.com,1,9.32
+Books,Imperial Life in the Emerald City: Inside Iraq's Green Zone (Vintage),Amazon.com,1,10.17
+Books,Information Dashboard Design: The Effective Visual Communication of Data,Amazon.com,2,46.18
+Books,Investment Banking Explained: An Insider's Guide to the Industry,Amazon.com,1,32.97
+Books,iPhone Fully Loaded,Amazon.com,1,13.59
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,3,79.17
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,2,52.78
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,2,52.78
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel 2007 Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,2,52.78
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,1,26.39
+Books,John Walkenbach's Favorite Excel Tips & Tricks,Amazon.com,-1,-26.39
+Books,Learn Excel 2007 Essential Skills with the Smart Method: Courseware Tutorial for Self-Instruction to Beginner and Intermediate Level,Amazon.com,1,14.95
+Books,Let the Great World Spin: A Novel,Amazon.com,1,7.50
+Books,Make the Winning Bid: Bidding Guidelines for the Advancing Player,Amazon.com,1,14.35
+Books,Mastering VBA for Microsoft Office 2007,Amazon.com,1,31.49
+Books,Michael Freeman's Perfect Exposure: The Professional's Guide to Capturing Perfect Digital Photographs,Amazon.com,1,19.77
+Books,Microsoft  Office Excel 2003 Inside Out (Microsoft Office Excel Inside Out),Amazon.com,1,29.69
+Books,Microsoft Excel 2000 Bible,Amazon.com,1,30.39
+Books,Microsoft Excel 2000 Power Programming with VBA,Amazon.com,1,31.49
+Books,Microsoft Excel 2002 Formulas,Amazon.com,2,52.78
+Books,Microsoft Excel 2002 Formulas,Amazon.com,1,28.15
+Books,Microsoft Excel 2003 Advanced Quick Source Guide,Amazon.com,1,4.95
+Books,Microsoft Excel 2003 Quick Source Guide,Amazon.com,1,4.95
+Books,Microsoft Office Excel 2007 Formulas & Functions For Dummies,Amazon.com,1,6.00
+Books,Microsoft Office Excel 2007: Data Analysis and Business Modeling (Bpg -- Other),Amazon.com,1,26.39
+Books,Microsoft Office Excel 2007: Data Analysis and Business Modeling (Bpg -- Other),Amazon.com,1,26.39
+Books,Microsoft Office Excel 2007: Data Analysis and Business Modeling (Bpg -- Other),Amazon.com,1,26.39
+Books,Microsoft Outlook 2007 Bible,Amazon.com,1,26.39
+Books,Microsoft PowerPoint 2003 Advanced Quick Source Guide,Amazon.com,1,4.95
+Books,Microsoft PowerPoint 2003 Quick Source Guide,Amazon.com,1,4.95
+Books,Microsoft Project 2007: The Missing Manual,Amazon.com,1,26.40
+Books,Microsoft SQL Server 2005 Unleashed,Amazon.com,1,40.94
+Books,Microsoft Word 2003 Advanced Quick Source Guide,Amazon.com,1,4.95
+Books,Microsoft Word 2007 Bible,Amazon.com,1,26.39
+Books,Microsoft Word 2007 Bible,Amazon.com,1,20.06
+Books,MLA Handbook for Writers of Research Papers 7th Edition,Amazon.com,1,15.52
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,2,214.18
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,Mr. Spreadsheet's Excel 2007 Library,Amazon.com,1,107.09
+Books,My Book of Coloring (Kumon Workbooks),Amazon.com,1,6.95
+Books,My First Book Of Cutting (Kumon Workbooks),Amazon.com,1,6.95
+Books,New and Selected Poems: Volume One,Amazon.com,1,19.80
+Books,Night (Oprah's Book Club),Amazon.com,1,9.00
+Books,No Logo: 10th Anniversary Edition with a New Introduction by the Author,Amazon.com,1,10.88
+Books,NurtureShock: New Thinking About Children,Amazon.com,1,14.99
+Books,Office 2007 All-in-One Desk Reference For Dummies,Amazon.com,1,18.89
+Books,On Killing: The Psychological Cost of Learning to Kill in War and Society,Amazon.com,1,10.87
+Books,One Magical Sunday: (But Winning Isn't Everything),Amazon.com,1,11.99
+Books,Outliers: The Story of Success,Amazon.com,1,11.75
+Books,Paper Towns,Amazon.com,1,12.23
+Books,Paranoia,Amazon.com,1,6.99
+Books,Paranoia,Amazon.com,1,6.99
+Books,Pets Go Pop!,Amazon.com,1,12.23
+Books,Pivot Table Data Crunching (Business Solutions),Amazon.com,1,23.09
+Books,Pivot Table Data Crunching for Microsoft Office Excel 2007,Amazon.com,1,23.09
+Books,Pivot Table Data Crunching for Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,23.09
+Books,Pivot Table Data Crunching for Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,23.09
+Books,Pivot Table Data Crunching for Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,23.09
+Books,Pivot Table Data Crunching for Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,23.09
+Books,Pivot Table Data Crunching for Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,23.09
+Books,Power Excel 2007 with MrExcel (Video Training) (LiveLessons),Amazon.com,1,26.39
+Books,PowerPoint 2003 for Dummies,Amazon.com,1,14.95
+Books,PowerPoint 2007 Bible,Amazon.com,1,26.39
+Books,Principles of Finance with Excel: Includes CD,Amazon.com,1,67.23
+Books,Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel and VBA (Addison-Wesley Microsoft Technolo,Amazon.com,1,40.94
+Books,Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel and VBA (Addison-Wesley Microsoft Technolo,Amazon.com,1,40.94
+Books,Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel and VBA (Addison-Wesley Microsoft Technolo,Amazon.com,1,40.94
+Books,Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel and VBA (Addison-Wesley Microsoft Technolo,Amazon.com,1,40.94
+Books,Professional Excel Development: The Definitive Guide to Developing Applications Using Microsoft Excel and VBA (Addison-Wesley Microsoft Technolo,Amazon.com,1,40.94
+Books,Programming Excel with VBA and .NET,Amazon.com,1,34.64
+Books,Programming Excel with VBA and .NET,Amazon.com,1,34.64
+Books,Quantitative Trading Strategies: Harnessing the Power of Quantitative Techniques to Create a Winning Trading Program (McGraw-Hill Traders Edge Series),Amazon.com,1,40.95
+Books,Quantum Physics For Dummies (For Dummies (Math & Science)),Amazon.com,1,13.59
+Books,Reading Financial Reports For Dummies (For Dummies (Business & Personal Finance)),Amazon.com,1,14.95
+Books,Reasons for and Advantages of Breathing: Stories (P.S.),Amazon.com,1,10.97
+Books,Reharmonization Techniques (Berklee Methods),Amazon.com,1,19.77
+Books,Restless: A Novel,Amazon.com,1,10.17
+Books,RibbonX: Customizing the Office 2007 Ribbon,Amazon.com,1,26.39
+Books,SharePoint 2007 User's Guide: Learning Microsoft's Collaboration and Productivity Platform,Amazon.com,1,26.39
+Books,SharePoint 2007 User's Guide: Learning Microsoft's Collaboration and Productivity Platform,Amazon.com,1,26.39
+Books,Sharpening the Warriors Edge: The Psychology & Science of Training,Amazon.com,1,13.57
+Books,Slash,Amazon.com,1,10.87
+Books,Special Edition Using Microsoft Office Excel 2007,Amazon.com,1,26.39
+Books,Spectacular Sins: And Their Global Purpose in the Glory of Christ,Amazon.com,1,10.87
+Books,Statistical Analysis with Excel For Dummies,Amazon.com,1,19.79
+Books,Substitute Teaching from A to Z,Amazon.com,1,10.17
+Books,Super Crunchers: Why Thinking-By-Numbers is the New Way To Be Smart,Amazon.com,1,10.98
+Books,Tagalog (Spoken World),Amazon.com,1,32.97
+Books,Teach Yourself VISUALLY Excel 2003 (Teach Yourself VISUALLY (Tech)),Amazon.com,1,16.49
+Books,The Adobe Photoshop Lightroom 2 Book for Digital Photographers (Voices That Matter),Amazon.com,1,29.69
+Books,The Anthologist: A Novel,Amazon.com,1,16.50
+Books,The Complete Idiot's Guide to Writing Erotic Romance,Amazon.com,1,11.53
+Books,The Drunkard's Walk: How Randomness Rules Our Lives,Amazon.com,1,16.47
+Books,The Echo Maker: A Novel,Amazon.com,1,10.20
+Books,The Fermata,Amazon.com,1,11.97
+Books,The Grappler's Book of Strangles and Chokes,Amazon.com,1,11.62
+Books,The Instant Millionaire: A Tale of Wisdom and Wealth,Amazon.com,1,9.95
+Books,The Last Tycoons: The Secret History of Lazard FrÃ¨res & Co.,Amazon.com,1,11.56
+Books,The Lost Symbol,Amazon.com,1,16.17
+Books,The Lost Symbol,Amazon.com,1,16.17
+Books,The Marlinspike Sailor,Amazon.com,1,12.21
+Books,The Mezzanine,Amazon.com,1,11.16
+Books,The Name of the Rose: including the Author's Postscript,Amazon.com,1,10.20
+Books,The Paradox of Choice: Why More Is Less,Amazon.com,1,9.88
+Books,The Piano Tuner: A Novel,Amazon.com,1,10.17
+Books,The PowerScore GMAT Sentence Correction Bible,Amazon.com,1,23.09
+Books,The R Book,Amazon.com,1,88.00
+Books,The Race...from Pit Row to Victory Lane,Amazon.com,1,13.22
+Books,The Red Queen: Sex and the Evolution of Human Nature,Amazon.com,1,10.19
+Books,The Snowball: Warren Buffett and the Business of Life,Amazon.com,1,23.10
+Books,The Songlines,Amazon.com,1,10.88
+Books,The World on Sunday : Graphic Art in Joseph Pulitzer's Newspaper (1898 - 1911),Amazon.com,1,33.75
+Books,The Worst Journey in the World (Penguin Classics),Amazon.com,1,12.24
+Books,To the Golden Shore: The Life of Adoniram Judson,Amazon.com,1,13.60
+Books,VBA and Macros for Microsoft Office Excel 2007 (Business Solutions),Amazon.com,1,26.39
+Books,Victory Point: Operations Red Wings and Whalers - the Marine Corps' Battle for Freedom in Afghanistan,Amazon.com,1,17.13
+Books,Vox,Amazon.com,1,11.16
+Books,Wall Street Lingo: Thousands of Investment Terms Explained Simply,Amazon.com,1,16.47
+Books,When Genius Failed: The Rise and Fall of Long-Term Capital Management,Amazon.com,1,10.47
+Books,Wisconsin Death Trip,Amazon.com,2,46.14
+Books,Wisconsin Death Trip,Amazon.com,1,23.07
+Books,Witch on the Water,Amazon.com,5,46.60
+Books,Wolf Hall: A Novel,Amazon.com,1,11.00
+Books,WordPress For Dummies,Amazon.com,1,15.49
+Books,XSLT 1.0 Pocket Reference (Pocket Reference (O'Reilly)),Amazon.com,1,9.95

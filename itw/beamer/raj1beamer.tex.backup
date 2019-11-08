@@ -1,0 +1,60 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage{PaloAlto}
+\usepackage{tikz}
+
+\title{Presentation on Turing award winner}
+\subtitle{Raj Reddy :The 28th Turing awardee}
+\author{P.Anurag}
+\institute{SCIS University of Hyderabad}
+\date{September 13, 2017}
+
+
+\begin{document}
+%\setbackgroundtemplate{%
+%\tikz\node[opacity=0.5]
+ %{\includegraphics[width=\paperwidth,height=\paperheight]{rajco.jpg}};}
+ 
+ \maketitle
+ 
+\begin{frame}
+
+\begin{figure}
+ \centering
+ \includegraphics[scale=0.5]{raj1.jpg}
+\end{figure} 
+
+
+\begin{block}{}
+ Raj Reddy Professor of Computer science and Robotics at carnegie mellon University
+\end{block}
+
+\end{frame}
+
+ 
+\begin{frame}
+  \frametitle{Table of contents}
+  \begin{enumerate}
+   \item 
+  \end{enumerate}
+
+\end{frame}
+
+\begin{frame}
+ \frametitle{\bf Qualifications}
+  \begin{block}
+    \begin{tabular}{cccc}
+     
+    \end{tabular}
+
+  \end{block}
+
+\end{frame}
+
+
+
+
+\end{document}
+
+
+

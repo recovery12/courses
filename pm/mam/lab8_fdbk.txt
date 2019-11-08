@@ -1,0 +1,95 @@
+ME01: Mixing up spaces and tabs after I have said repeatedly not to do so!
+htoi: Ignores invalid characters in hexa string. Should give error
+instead.
+In itob, there has to be a string output parameter into which you store
+the equivalent string. Printing must be done outside the function. Printing
+the characters by converting each individual remainder is not conversion to
+a string. I may want to do something with the string later on, not just print
+it. Hence, a generalised function will return the string. You have to redo
+this to get marks. This is the same mistake in the 1st lab minor for which
+I cut marks for all who printed without storing into a reversed integer.
+Bit-sets: Do NOT use 32 - hardcoded value which assumes unsigned int is 32
+bits long. Use sizeof(unsigned int) for a generalised code. These are exactly
+the sort of things you should avoid for better and more portable code.
+Passes all test cases.
+
+ME02: After I have said many times in the class that you should not repeat
+the same statements multiple times in a program, you have done it in itob.c.
+Look at your lines 32-45! Same problem in htoi.c too! Missing adding null 
+char to end string in itob. A variable name of "buf" for an integer is highly
+misleading. Typically, "buf" would mean buffer which would convey an array
+to a reader.
+Bit-sets: passes all the tests. But, for membership when printing that a
+number exists in the set, it gives output as "The given string exists in the 
+string" :)! This is a set and not a string anyways...
+
+ME03: itob is hardcoding the base as 2. It has to be a command line argument.
+I said I will test it with octal or hexadecimal primarily.
+htoi: Not checking for invalid hexa chars in the given string.
+Bit-sets: Printing of sets should also be done with bits. All you need to do
+is to simply call if a bit is set for sizeof(unsigned int) and if it is,
+print the index value of the for loop. Passes all tests.
+
+ME06: Ignoring some really important warnings in compilation (or did not 
+compile with -Wall turned on)! (-1)
+itob and htoi pass all test cases.
+Bit-sets: Very bad coding! Repeating the same code in intersection, union
+and membership! Exactly what I have been saying repeatedly is extremely bad
+programming...
+Passes all the tests.
+
+ME08: itob: passes all tests. Prints an integer value after
+stating that an invalid number is invalid instead of exiting there itself.
+Bit-sets: Passes all tests. (Implemented Difference not yet tested).
+
+ME10: An important warning on parenthesisation ignored (at your peril)!
+itob: passes all tests.
+htoi: doesnt work at all...obviously not tested the code before submission.
+Bit-sets: Passes all tests.
+
+ME12: No submission for bit based set ops.
+itob is not accepting input as command line parameters.
+htoi: gives completely wrong output. Not tested obviously!
+itob: Giving 10 as input for base 16 gives output 10 and also for 16 as 10.
+
+ME13: htoi and itob pass all tests.
+Bit-sets: Passes all tests. (Difference implemented - not yet tested).
+
+ME14: htoi and itob pass all tests.
+Bit-sets: Passes all tests.
+
+ME18: Unable to compile file bitm.c. No proper code for bit based sets.
+No htoi submission. Does not take input as argv[] for itob. Hardcoded for
+binary numbers only. 
+
+ME19: itob passes all test cases.
+htoi: is not checking for invalid input.
+Bit-sets: Passes all the tests. When submitting code, however, do take care to
+remove all debugging printf statements and give only meaningful output to the
+user. One of the things I am consistently noting about your programming is
+that you are actually using the functions to print output. This is bad
+programming. You should return what is expected from the function. For e.g.,
+in set membership function, you should return TRUE/FALSE and not have it
+as a void function. In fact, most times functions will NOT be having a return
+value of void. It is possible that the caller of the function may want to do
+something with the return value than only print a message to the screen. When
+you fix the function to do printing, it removes the generality of the
+functionality.
+
+ME21: itob: Input has to be command line arguments. Why should I choose menu
+options when I can choose what I want via command line args?!
+htoi: Not checking for invalid input.
+Bit-sets: Give meaningful output. You need to write a function PrintSet() to
+go through the bits and print the values where the bit is set to 1. Printing
+an unsigned integer gives no information whatsoever! (-2) for bad output.
+Why should I give two files for testing membership? It has to be file and a
+number. Badly implemented. (Set difference implemented - not yet tested)
+
+ME22: itob: passes all tests.
+htoi: Not checking for invalid values. Why are you checking all the way to
+'z' or 'Z'? The only valid letters in hexa numbers are 'ABCDEF'. There
+is some junk being printed from the statement: printf("%c", ptr[i]);
+I would like you to understand why this is happening and explain to me. Or,
+if you are unable to understand, please come and ask me.
+Printing of sets is not properly implemented.
+Code of me01, me14 and me22 is identical for bit based sets (-1 on all three).

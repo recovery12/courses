@@ -1,0 +1,30 @@
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: lightcoral;
+    text-shadow: 0, 0, #ffffff;
+}
+
+body
+{
+    background-color: aquamarine;
+}
+
+fieldset#pizzatype
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+}
+
+div#addons
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: coral;
+}
+
+select
+{
+    color: crimson;
+    font-size: 20px;
+}

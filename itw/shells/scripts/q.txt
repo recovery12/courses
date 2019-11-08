@@ -1,0 +1,2 @@
+1) Write a shell script to print a number in reverse order. 
+e.g.,./numrev.sh 1234, will print 4321

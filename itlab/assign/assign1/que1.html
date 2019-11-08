@@ -1,0 +1,29 @@
+<html>
+   <head>
+      <h1> An even digit checker </h1>
+   </head>
+
+   <body>
+      <script type=text/javascript>
+         function even_checker()
+         {
+            var val = echecker.even.value;
+            var i, e_int = 0;
+
+            for (i = 0; i < val.length; i++)
+            {
+               if (parseInt(val[i])%2 == 0)
+               {
+                  e_int++;
+               }
+            }
+            alert("No. of even digits are "+e_int);
+         }
+      </script>      
+   </body>
+
+   <form name=echecker onsubmit=even_checker()>
+      <input type=text name=even value="">
+      <input type=submit name=button value=Run>
+   </form>
+</html>

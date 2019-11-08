@@ -1,0 +1,75 @@
+<html>
+    <title>
+       One more step to get your pizza!
+    </title>
+
+    <head>
+        <h1> <center> Fill in your details </center> </h1>
+        <link rel=stylesheet type=text/css href=que1b.css>
+    </head>
+
+    <form name=details>
+        <div id=info>
+            Selected Pizza: 
+            <input type=text name=pizzatype value=""> <br> <br>
+            Total Rs.:
+            <input type=text name=amount value=""> <br>
+            Address:
+            <input type=text name=addr style="height: 300px;width: 400px" value=""> <br>
+
+            <script type=text/javascript>
+                var i, ns = 95;
+
+                for (i = 0; i < ns; i++)
+                {
+                    document.write("&nbsp");
+                }
+            </script>
+            <button type=submit name=buttons onclick=delivary()> Submit </button>
+        </div>
+    </form>
+
+    <body>
+        <script type=text/javascript>
+            function display()
+            {
+                var para = location.search.split("?")[1].split("&");
+
+                if (para[0].split("=")[1] == 100)
+                {
+                    details.pizzatype.value = "6\" Pizza";
+                }
+                else if (para[0].split("=")[1] == 150)
+                {
+                    details.pizzatype.value = "8\" Pizza";
+                }
+                else if (para[0].split("=")[1] == 200)
+                {
+                    details.pizzatype.value = "10\" Pizza";
+                }
+                else if (para[0].split("=")[1] == 300)
+                {
+                    details.pizzatype.value = "12\" Pizza";
+                }
+                details.amount.value = para[3].split("=")[1];
+
+                return [details.pizzatype.value, details.amount.value];
+            }
+            tmp = display()
+
+            function delivary()
+            {
+                if (details.addr.value == "")
+                {
+                    alert("Please enter the address");
+                    details.pizzatype.value = tmp[0];
+                    details.amount.value = tmp[1];
+                }
+                else
+                {
+                    alert("Your Pizza will be delivared.");
+                }
+            }
+        </script>
+    </body>
+</html>

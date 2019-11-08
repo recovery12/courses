@@ -1,0 +1,39 @@
+<html>
+    <title>
+        Movie Ticket booking.
+    </title>
+
+    <head>
+        <h1> <center> Book your tickets here. </center> </h1>
+        <!-- <link rel=stylesheet type=text/css href=que3.css> -->
+    </head>
+
+    <body>
+        <script type=text/javascript>
+            function check()
+            {
+                var name = moviet.fname.value;
+                var age = moviet.age.value;
+
+                if (name == "" || age == "")
+                {
+                    window.alert("All the fields are required.");
+                }
+
+                try {
+                    if (parseInt(age) < 18) throw "Your age is less than 18"
+                } catch (error) {
+                    window.alert(error)
+                }
+            }
+        </script>
+    </body>
+
+    <form name=moviet>
+        Enter your name:
+        <input type=text name=fname value="" placeholder="Your name"> <br>
+        Enter your age:
+        <input type=text name=age value="" placeholder="Your age"> <br>
+        <button name=buttons onclick=check() value=""> Book the Ticket </button>
+    </form>
+</html>

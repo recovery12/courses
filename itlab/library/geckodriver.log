@@ -1,0 +1,194 @@
+1564212345890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YEtfpoGvD8sK"
+1564212346358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564212346358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564212346358	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564212346359	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564212348097	Marionette	INFO	Listening on port 44060
+1564212348199	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 6426, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564212393337	Marionette	INFO	Stopped listening on port 44060
+1564212400830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vmdMZzcc02cd"
+1564212401435	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564212401436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564212401436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564212401436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564212403442	Marionette	INFO	Listening on port 38142
+1564212403540	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221564162743647%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+1564212456148	Marionette	INFO	Stopped listening on port 38142
+1564212457075	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dNPMVj7NVXK5"
+1564212457527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564212457527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564212457528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564212457528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564212459234	Marionette	INFO	Listening on port 45267
+1564212459343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+[Child 6998, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 6998, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Parent 6911, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 6911, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564212541853	Marionette	INFO	Stopped listening on port 45267
+1564212544945	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ksuiF7WKb7Kq"
+1564212545430	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564212545431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564212545431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564212545431	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564212547565	Marionette	INFO	Listening on port 36544
+1564212547654	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x35010B,name=PContent::Msg_RecordDiscardedData) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7149, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564212628552	Marionette	INFO	Stopped listening on port 36544
+1564467656150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VWuqkC7lWOSn"
+1564467659956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564467659956	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564467659957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564467659957	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564467664048	Marionette	INFO	Listening on port 46645
+1564467664075	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: http://s7.addthis.com/js/250/addthis_widget.js#pub=xa-4b293a7c1295a4cf, line 1: SyntaxError: expected expression, got '<'
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: http://s7.addthis.com/js/250/addthis_widget.js#pub=xa-4b293a7c1295a4cf, line 1: SyntaxError: expected expression, got '<'
+[Parent 3235, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3235, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564467764695	Marionette	INFO	Stopped listening on port 46645
+1564467768175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LlbETKbeSJaJ"
+1564467768632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564467768632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564467768632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564467768632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564467770337	Marionette	INFO	Listening on port 43311
+1564467770433	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3499, Gecko_IOThread] WARNING: pipe error (118): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3499, Gecko_IOThread] WARNING: pipe error (61): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564467783922	Marionette	INFO	Stopped listening on port 43311
+1564467788288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6xBpIhfWVSGT"
+1564467788783	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564467788784	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564467788793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564467788793	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564467791175	Marionette	INFO	Listening on port 39624
+1564467791247	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 3939, Gecko_IOThread] WARNING: pipe error (80): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 3939, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564467805941	Marionette	INFO	Stopped listening on port 39624
+1564467839743	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UsMA930uy31D"
+1564467840191	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564467840192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564467840192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564467840192	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564467841972	Marionette	INFO	Listening on port 46251
+1564467842087	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1095:3
+
+[Parent 4222, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 4222, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-Oye4Dj/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1564467911687	Marionette	INFO	Stopped listening on port 46251
+1564468015669	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ire8t3bD6en5"
+1564468016310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564468016310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564468016310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564468016310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564468019078	Marionette	INFO	Listening on port 44238
+1564468019089	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1564468026051	Marionette	INFO	Stopped listening on port 44238
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 601: TypeError: this.tablesData[table] is undefined
+1564468262086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wfTU8uACysIr"
+1564468262545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1564468262545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1564468262545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1564468262545	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1564468264382	Marionette	INFO	Listening on port 37288
+1564468264394	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://igmlnet.uohyd.ac.in:8080/scripts/dojo/dojo/dojo.js, line 9: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1564468269460	Marionette	INFO	Stopped listening on port 37288
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+

@@ -1,0 +1,124 @@
+\documentclass[a4paper,10pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym,amsmath,amssymb,textcomp}
+%opening
+\title{Probability Distributions}
+\author{P.Anurag}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section{Introduction}
+\paragraph{Basic abbrevations}
+
+
+\begin{enumerate}
+ \item[1.1] PMF:Probability Mass Function
+ \item[1.2] PGF:Probability Generating Function
+ \item[1.3] MGF:Moment Generating Function
+ \item[1.4] CF:Chracterstic Function
+ \item[1.5] PDF:Probability Density Function 
+\end{enumerate}
+
+\section{Bionomial Distribution}
+
+\[
+ PMF :  \frac{n!}{k!(n-k)!} p^k (1-p)^{n-k}
+\]
+
+\[
+Mean: np
+\]
+
+\[
+ Variance: npq
+\]
+
+\[ 
+ PGF :  {\left[
+                   (1-p)+pz
+             \right]}^n     
+\]
+
+\[
+ MGF : {(1-p+pe^t)}^n
+\]
+
+\[
+ CF : {(1-p+pe^{it})}^n 
+\]
+
+\section{Poisson Distribution}
+
+\[
+ PMF : \frac{\lambda^k e^{-\lambda}}{k!}
+\]
+
+\[
+ Mean : \lambda
+\]
+
+\[
+ Variance : \lambda
+\]
+
+\[
+ PGF : e^{\lambda(z-1)}
+\]
+
+\[
+ MGF : e^{\lambda(e^t-1)}
+\]
+
+\[
+ CF : e^{\lambda(e^{it}-1)}
+\]
+
+\section{Hypergeometric Distribution}
+
+\[
+ PMF : \frac{\frac{K!}{k!(K-k)!} \frac{(N-K)!}{(n-k)!((N-K)-(n-k))!}}{\frac{N!}{n!(N-n)!}}
+\]
+
+\[
+ Mean : n \frac{K}{N}
+\]
+
+\[
+ Variance : n \frac{K}{N} \frac{(N-K)}{N} \frac{(N-n)}{(N-1)}
+\]
+
+
+\section{Normal Distribution}
+
+\[
+ PDF :  \frac{1}{\sqrt{2\pi\sigma^{2}}} e^{-\frac{{(x-\mu)}^2}{2\sigma^2}}
+\]
+
+
+\[
+ Mean : \mu
+\]
+
+\[
+ Variance : \sigma^2
+\]
+
+\[
+ MGF : e^{\{\mu t + \frac{1}{2}\sigma^2t^2\}}
+\]
+
+\[
+ CF : e^{\{i\mu t - \frac{1}{2}\sigma^2t^2\}}
+\]
+
+
+
+
+
+
+
+\end{document}

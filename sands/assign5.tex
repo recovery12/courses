@@ -1,0 +1,75 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{gensymb}
+\usepackage{textcomp}
+
+%opening
+\title{
+  \begin{large}
+    Signals \& Systems
+    Assignment No. 5
+  \end{large}
+}
+\author{P.Anurag, 17MCME13}
+
+\begin{document}
+
+\maketitle
+
+  \section{Given Statement}
+    Given Equation is: $h_k$ = 1.62$h_{k-1}$ - 0.81$h_{k-2}$ + $\delta_k$
+    \newline
+    where $\delta_k$ is a delta function:
+    \[
+    \delta_k = 
+      \left\{
+        \begin{array}{ll}
+          1, & k = 0 \\
+          0, & k \neq 0\\
+        \end{array}
+      \right.
+    \]
+    The General form of the equation is $h_k$ = $r.p.h_{k-1}$ - $r^2$0.81$h_{k-2}$ +  $a.\delta_k$ + $b.\delta_{k-1}$
+    for the given problem r = 0.9, p = 1.8, a = 1, b = 0
+
+    \section{Difference Equation to transfer function}
+      $h_k$ = 1.62$h_{k-1}$ - 0.81$h_{k-2}$ + $\delta_k$
+      \newline
+      $h_k$ = 1.62$h_k.z^{-1}$ - 0.81$h_k.z^{-2}$ + $\delta_k$
+      \newline
+      $h_k$ - 1.62$h_k.z^{-1}$ + 0.81$h_k.z^{-2}$ = $\delta_k$
+      \newline
+      $h_k$.(1 - 1.62$z^{-1}$ + 0.81$z^{-2}$) = $\delta_k$
+      \newline
+        \begin{equation}
+          h_k = \frac{1}{(1 - 1.62z^{-1} + 0.81z^{-2})}\delta_k
+        \end{equation}
+        \begin{equation}
+          h_k = H(z)\delta_k
+        \end{equation}
+      Where $H(z)$ is a transfer function.
+      \newline
+      solving for the value of z we get, 
+      $z = 0.81\pm\imath0.3923$
+
+    \section{Changing to polar form}
+      Writing this in terms of $e^{r\theta},$\newline
+      \[
+        r = \sqrt{(0.81)^2 + (0.3923)^2}
+          = 0.9
+      \]
+      \[
+        \theta = \arctan\left(\frac{0.3923}{0.81}\right)
+               = 25.8419\degree
+      \]
+      \begin{equation}
+        z = e^{(0.9).(25.8419\degree)} = 0.9(\cos(25.8419\degree)\pm\imath\sin(25.8419\degree))
+      \end{equation}
+      The frequency of the wave is given by:
+      \[
+      f_n = \frac{\arccos(\frac{p}{2})}{2\pi}
+      \]
+      and for this problem $f_n$ is 0.0717.\newline
+      No. of samples is $\left[\frac{360\degree}{\theta\degree}\right]$ which is 13.9308 $\approx$ 14.
+
+\end{document}

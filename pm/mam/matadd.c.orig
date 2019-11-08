@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#define   M       10
+
+int       matrix1[M][M] = {
+                            {10, 5, 2, 1},
+                            {3, 12, 46, 23}
+                          };
+int       matrix2[M][M] = {
+                            {1, 8, 4, 19},
+                            {53, 22, 16, 83}
+                          };
+
+int main(void)
+{
+  int       i, j;
+  int       rows = 2, cols = 4;
+
+  printf("Matrix 1 = \n");
+  for (i = 0; i < rows; i++) {
+    for (j = 0; j < cols; j++)
+      printf("%d ", matrix1[i][j]);
+    printf("\n");
+  }
+  printf("\n");
+
+  printf("Matrix 2 = \n");
+  for (i = 0; i < rows; i++) {
+    for (j = 0; j < cols; j++)
+      printf("%d ", matrix2[i][j]);
+    printf("\n");
+  }
+  printf("\n");
+
+  for (i = 0; i < rows; i++)
+    for (j = 0; j < cols; j++)
+      matrix1[i][j] += matrix2[i][j];
+
+  printf("Added Matrix = \n");
+  for (i = 0; i < rows; i++) {
+    for (j = 0; j < cols; j++)
+      printf("%d ", matrix1[i][j]);
+    printf("\n");
+  }
+  printf("\n");
+
+  exit(0);
+}

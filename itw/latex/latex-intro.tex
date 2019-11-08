@@ -1,0 +1,235 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{graphicx}
+\usepackage{latexsym,amsmath,amssymb}
+%\usepackage{fontcolors}
+\setlength{\textheight}{8.5in}
+\setlength{\textwidth}{5.5in}
+\setlength{\topmargin}{0.005in}
+%opening
+\title{To Test The Capabilities of the Human and The Tool}
+\author{Anupama Potluri}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\begin{abstract}
+This is to assess the capabilities of the tool, Microsoft's Word Processor, 
+$MS-WORD$ and the student's comfort level with using it.
+\end{abstract}
+
+\section{A Few Aphorisms}
+
+We will look at some of the font styles :
+
+This is in \textit{italics}.
+This is a \textsl{slanting} text.
+This is a \textbf{bold face} text.
+This is a \textsc{small caps} text.
+\flushright This is flushed to the right.
+\flushleft This is a text with flush to the left.
+\begin{center}
+ This is centered text.
+\end{center}
+
+\subsection{Large Font Section}
+\large This is large text.
+\Large This is even larger text.
+\huge This is huge text.
+\Huge This is even huger than the earlier one.
+
+\normalsize If you want the text to come in a separate line, separate them by 
+a line too.
+
+\section{Enumeration with Latex}
+In this section, we will see how to enumerate items. For example, I might 
+want to enumerate the advantages and disadvantages of using Latex \cite{latex}. Then, I 
+can do it as follows:
+
+\begin{enumerate}
+  \item {\bf Advantages:}
+  \begin{itemize}
+    \item It produces output of a publishable quality.
+    \item It is very easy to do mathematical formulae.
+    \item It is very easy to do cross-referencing which is almost a nightmare
+	  in Microsoft Word and its clones.
+  \end{itemize}
+  \item {\bf Disadvantages:}
+  \begin{itemize}
+    \item Tables are not easy to do comparatively.
+    \item Compilation and debugging are not always straightforward, 
+	  especially for beginners.
+  \end{itemize}
+
+\end{enumerate}
+
+More information may be obtained from the Latex Project \cite{latex-pro}. Citing
+article in a journal \cite{art} or of a conference proceeding \cite{conf} may
+also be done.
+
+\section{Including Images}
+\label{images}
+
+We have a graph which represents a network topology in Fig. \ref{topo}.
+
+\begin{figure}[ht]
+\centering
+%\includegraphics[scale=0.4]{topo.eps}
+\caption{A topology}
+\label{topo}
+\end{figure}
+
+If we take the topology in Fig. \ref{topo} from section \ref{images} and color 
+them with different colors, we get the picture in Fig. \ref{color}.
+
+\begin{figure}[ht]
+\centering
+%\includegraphics[scale=0.4]{topo5.eps}
+\caption{A Color topology}
+\label{color}
+\end{figure}
+
+\section{Mathematical Formulae}
+
+All greek symbols\footnote{All mathematicians are fond of these} are very 
+easy to write - such as $\alpha$, $\beta$, $\psi$ etc. Similarly, all 
+mathematical relational symbols are also quite easy to do: $\neq$, 
+$\leq$, $\geq$, $\simeq$, $\ll$, $\gg$ and so on. Set relationships are 
+also easy: $\in$ to represent membership in a set, $\subset$ to represent 
+subset,  Set Minus is $\setminus$ and so on.
+
+A superscript $x^2$ and subscript $y_{z1}$ can be easily done.
+
+A fraction is given as follows: $\frac{x+y}{2^{xy}}$
+
+To get an equation on the next line, you can do the following:
+
+\[
+ \sum_x(x^2+1) = \sum_{x-1}x + f(y)
+\]
+
+To get an integral, you just say $\int_0^\infty x$.
+
+You can get other special symbols using the package amssymb and amsmath - AMS 
+standing for American Mathematical Society - which has defined these packages.
+
+Thus you say $\mathbb{A, B, G}$ or $\mathcal{A, B, C}$ for different types of 
+symbols.
+
+Here is how you write a formula.
+
+$\delta^\bullet: \mathbb{G}^\times \rightarrow \mathbb{G}^\bullet $ is such 
+that $\delta^\bullet(X^\times) = \{x \in \mathbb{G}^\bullet \mid 
+\exists e_{x,y} \in X^\times\}$ \vspace{2mm}
+
+Let us now create an array:
+\( \begin{array}{cccc}
+ a & b     & c & d \\
+ d     & e+f  & g^2 & h
+\end{array} \)
+
+We can put the whole of the above in square brackets as follows:
+\(\left[ \begin{array}{cccc}
+ a & b     & c & d \\
+ d     & e+f  & g^2 & h
+\end{array} \right] \)
+
+Another example array with determinants etc.:
+\[ \left( \begin{array}{c}
+           \left| \begin{array}{cc}
+                   x_{11} & x_{12} \\
+                   x_{21} & x_{22} 
+                  \end{array}
+	    \right| \\
+	    y \\
+	    z
+          \end{array}
+    \right)
+\]
+
+You can have ellipsis in the text with lower alignment $\ldots$ or centered 
+alignment as in $\cdots$.
+
+A nice formula:
+\[
+ x = 
+\left\{ 
+\begin{array}{ll}
+ y^2 & \mbox{if $y > 0$} \\
+ y^{-2} & \mbox{otherwise}
+\end{array}
+\right.
+\]
+
+The same with an equation number:
+\begin{equation}
+ x = 
+\left\{ 
+\begin{array}{ll}
+ y^2 & \mbox{if $y > 0$} \\
+ y^{-2} & \mbox{otherwise}
+\end{array}
+\right.
+\end{equation}
+
+The {\bf stackrel} command stacks one symbol over another:
+\( A \stackrel{a'}{\rightarrow} B \stackrel{b'}{\rightarrow} C \)  
+
+\section{Creating Tables}
+
+\begin{table*}[ht]
+\centering
+\caption{An Example multi-column Table with columns separated by different 
+separators}
+\begin{tabular}{|c | c || c | c || c | c|}
+\hline 
+\textbf{Column 1} & \textbf{Column 2} & \multicolumn{2}{c||} 
+{\textbf{Column 3}} & \multicolumn{2}{c|} {\textbf{Column 4}} \tabularnewline
+\cline{3-4} \cline{5-6} 
+\multicolumn{1}{|c|}{} & \multicolumn{1}{c||}{} & \textbf{$\gamma$} & 
+\textbf{Time (s)} & \textbf{$\gamma$} & \textbf{Time (s)} \tabularnewline
+\hline
+1 & 2 & 3 & 4 & 9 & 10 \\
+5 & 6 & 7 & 8 & 11 & 12 \\
+\hline
+a & b & c & d & m & n\\
+e & f & g & h & i & w \\
+\hline
+\end{tabular}  \vspace{1mm}
+\label{table1}
+\end{table*}
+
+We show an example table in Table \ref{table1}.
+
+
+\section{Advanced Features}
+We can \fbox{create boxes} around text.
+
+\makebox[15ex][s]{Censored text}\hspace{-15ex}\makebox[15ex][s]{X X X X X}
+
+
+We can create theorem environment as follows:
+\newtheorem{theorem}{Theorem}
+
+\begin{theorem}
+The sum of the squares of the sides of a right-angled triangle is equal to 
+the square of the hypotenuse.
+\end{theorem}
+
+\newtheorem{axiom}{Axiom}
+
+\fbox{
+\parbox{\textwidth}{
+  \begin{axiom} 
+      Axiom scheme for Universal Instantiation.
+  \end{axiom}
+  }
+}
+
+\bibliographystyle{splncs}
+\bibliography{latex-intro}
+
+\end{document}

@@ -1,0 +1,12 @@
+Q1 is bank.java
+Q2 is aggregation.java
+Q3 is saleable.java
+Q4 is student.java
+Q5 is booklib.java
+Q6 is account.java
+Q7 is clock.java
+Q8 is building.java
+Q9 is publication.java
+Q10 is publication1.java
+Q11 is student1.java
+Q12 is saleable1.java

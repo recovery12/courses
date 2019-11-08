@@ -1,0 +1,114 @@
+<html>
+    <title>
+        Do u want pizza?
+    </title>
+
+    <head>
+        <h1> <center> Pizza building </center> </h1>
+        <link rel=stylesheet type=text/css href=que1.css>
+    </head>
+
+    <body>
+        <script type=text/javascript>
+           var sel1 = "", sel2 = 0, sel3 = [0, 0, 0];
+
+           function funct_psize()
+           {
+               var val = 0;
+
+               if (sel1 != "")
+               {
+                   order.rupees.value = parseInt(order.rupees.value) - parseInt(document.getElementById(sel1).value)
+               }
+
+               for (i = 1; i < 5; i++)
+               {
+                   if (document.getElementById("opt"+i).checked)
+                   {
+                       val = document.getElementById("opt"+i).value;
+                       sel1 = "opt"+i;
+                   }
+               }
+               order.rupees.value = parseInt(order.rupees.value) + parseInt(val);
+           }
+
+           function funct_padds()
+           {
+               var val = 0;
+
+               if (sel2 != 0)
+               {
+                   order.rupees.value = parseInt(order.rupees.value) - sel2
+               }
+               val = parseInt(document.getElementById("adds").value);
+               sel2 = val;
+               order.rupees.value = parseInt(order.rupees.value) + parseInt(val);
+           }
+
+           function funct_paddons()
+           {
+               var val = 0;
+               ids = ["chips", "coke", "gst"];
+               cost = [100, 60, 18];
+
+               for (i = 0; i < sel3.length; i++)
+               {
+                   if (sel3[i] != 0)
+                   {
+                       order.rupees.value = parseInt(order.rupees.value) - cost[i];
+                   }
+               }
+
+               sel3 = [0, 0, 0];
+               for (i = 0; i < ids.length; i++)
+               {
+                   if (document.getElementById(ids[i]).checked)
+                   {
+                       val = val + parseInt(document.getElementById(ids[i]).value);
+                       sel3[i] = 1;
+                   }
+               }
+
+               order.rupees.value = parseInt(order.rupees.value) + parseInt(val);
+           }
+        </script>
+    </body>
+
+    <form name=order action=que1b.html target=rupees method=get>
+        <fieldset id=pizzatype>
+            <input type=radio name=pizza id=opt1 value=100 onclick=funct_psize()> Pizza 6" serves 4 people (Rs.100) <br>
+            <input type=radio name=pizza id=opt2 value=150 onclick=funct_psize()> Pizza 8" serves 6 people (Rs.150) <br>
+            <input type=radio name=pizza id=opt3 value=200 onclick=funct_psize()> Pizza 10" serves 8 people (Rs.200) <br>
+            <input type=radio name=pizza id=opt4 value=300 onclick=funct_psize()> Pizza 12" serves 10 people (Rs.300) <br>
+        </fieldset>
+
+        <br>
+        <select name=additional id=adds>
+            <option value=0 onclick=funct_padds()> Select </option>
+            <option value=50 onclick=funct_padds()> Filling </option>
+            <option value=30 onclick=funct_padds()> Toppings </option>
+            <option value=10 onclick=funct_padds()> Extra Spicy </option>
+        </select>
+        <br>
+        
+        <br> <br>
+        <div id=addons>
+            <input type=checkbox name=addon id=chips value=100 onclick=funct_paddons()> Include Chips (Rs.100) <br>
+            <input type=checkbox name=addon id=coke value=60 onclick=funct_paddons()> Include Coke (Rs.60) <br>
+            <input type=checkbox name=addon id=gst value=18 onclick=funct_paddons()> GST @ 18%
+        </div>
+
+        <script type=text/javascript>
+           var i, ns = 30;
+           for (i = 0; i < ns; i++)
+           {
+               document.write("&nbsp");
+           }
+           document.write("Total Rs.");
+        </script>
+
+        <input type=text name=rupees value=0>
+        <input type=submit name=buttons value=Submit>
+        <br>
+    </form>
+</html>

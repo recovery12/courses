@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<script type="text/javascript">
+			function submitForm(action) 
+			{
+				var form = document.getElementByID ("login_portal1");
+				form.action = action;
+				form.submit();
+			}
+	</script>
+	
+
+  <head>
+   <title> Homepage </title>
+
+	<style>
+	  body{
+		background-image: url("start1.jpeg");
+		background-size:1000px 600px;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-position:center;
+	      }
+	</style>
+  </head>
+   <h1 align="center"> Welcome to Sandesh </h1>
+   <body><center> SUCCESSFULLY LOGGED IN <br> Click on the button to start your conversation  
+   </body>
+      <p>	
+      <form action="index.php"><input id="button" onclick="submitForm('chat.php')" type="submit" name="submit" value="Start"></form>
+      </p>
+</html>

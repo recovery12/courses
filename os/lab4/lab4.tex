@@ -1,0 +1,33 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+
+\title{Operating Systems Lab-4 (Pipes)}
+\author{P. Anurag\\17MCME13}
+\date{}
+
+\pdfinfo{%
+  /Title    (OS-Lab4)
+  /Author   (Anurag Peddi)
+  /Creator  ()
+  /Producer ()
+  /Subject  (Lab Submission)
+  /Keywords (Pipe, fork, read, write)
+}
+
+\begin{document}
+\maketitle
+  \begin{enumerate}
+    \item[Q1] I have observed a major difference with wait() function
+              if there is no wait() function the program takes only
+              a part of the program and outputs the screen, if there is
+              wait() then it outputs the complete txt file to the
+              screen.
+    \item[Q2] In this program, after giving a line for every newline
+              character converts every lowercase character to uppercase
+              stores it the buffer and outputs to stdout; from there 
+              the child process takes each line, adds a newline to it and 
+              then it outputs to the screen.
+  \end{enumerate}
+
+\end{document}

@@ -1,0 +1,33 @@
+<html>
+
+   <head>
+      <h1> Interaction between forms </h1>
+   </head>
+
+   <script>
+      var tmp;
+      function fun1()
+      {
+         var passwd;
+
+         passwd = form1.passwd.value;
+         document.write(passwd);
+      }
+
+      function fun2()
+      {
+         fun1();
+      }
+
+   </script>
+
+   <form name=form1 onsubmit=fun1()>
+      <input type=text name=username value=username>
+      <input type=password name=passwd value=password>
+      <!-- <input type=submit name=button value=press> -->
+   </form>
+
+   <form name=form2 onsubmit=fun2()>
+      <input type=submit name=button2 value=show>
+   </form>
+</html>

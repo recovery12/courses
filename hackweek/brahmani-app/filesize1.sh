@@ -1,0 +1,1 @@
+#!/bin/bash\n#This script is used to list which are bigger than a given a value\nif [ $# -ne 2 ]\nthen\n    echo \"Syntax: filesize.sh <directory> <bytesize>\"\n    exit 1\nfi\n \nvar=$(find $1 -maxdepth 1 -type f)\ndu -b $var | awk \'{if($1 > \'$2\') print $0;else echo \"its a small file\"fi}\'

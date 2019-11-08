@@ -1,0 +1,104 @@
+<html>
+    <title>
+        Validation Form
+    </title>
+
+    <head>
+        <h1> <center> Validation Form </center> </h1>
+        <link rel=stylesheet type=text/css href=que2.css>
+    </head>
+
+    <body>
+        <script type=text/javascript>
+            function check_mail(email)
+            {
+                var chk = 0;
+                if (email.endsWith(".in") || email.endsWith(".com") || email.endsWith(".org"))
+                {
+                    chk = chk + 1;
+                }
+
+                if (email.includes("@"))
+                {
+                    chk = chk + 2;
+                }
+
+                if (chk == 0)
+                {
+                    return "";
+                }
+                else
+                {
+                    return "Invalid email";
+                }
+            }
+
+            function check()
+            {
+                var str = "";
+                var fname = valid.fname.value;
+                var lname = valid.lname.value;
+                var email = valid.email.value;
+                var phno = valid.phno.value;
+                var addr = valid.addr.value;
+                var country = valid.country.value;
+
+                if (fname == "")
+                {
+                    str = str + "Please enter your First name\n";
+                }
+
+                if (lname == "")
+                {
+                    str = str + "Please enter your last name\n";
+                }
+
+                if (email == "")
+                {
+                    str = str + "Please enter your email\n";
+                }
+
+                str = str + check_mail(email);
+                if (str != "")
+                {
+                    window.alert(str);
+                }
+            }
+        </script>
+    </body>
+
+    <form name=valid>
+        <div id=txtboxs>
+            First name:
+            <input type=text name=fname value=""> <br>
+            Last name:
+            <input type=text name=lname value=""> <br>
+            Email:
+            <input type=text name=email value=""> <br>
+            Phone:
+            <input type=text name=phno value=""> <br>
+            Address:
+            <input type=text style=width:250px;height:150px; name=addr value=""> <br>
+            Country:
+            <select name=country> <br>
+                <option value=""> [Country Value] </option>
+                <option value=afganistan> Afganistan </option>
+                <option value=bangladesh> Bangladesh </option>
+                <option value=belgium> Belgium </option>
+                <option value=canada> Canada </option>
+                <option value=china> China </option>
+                <option value=cuba> Cuba </option>
+                <option value=denmark> Denmark </option>
+                <option value=india> India </option>
+                <option value=moscow> Moscow </option>
+                <option value=netherlands> Netherlands </option>
+                <option value=paris> Paris </option>
+                <option value=russia> Russia </option>
+                <option value=southafrica> South Africa </option>
+                <option value=vatican> Vatican </option>
+                <option value=zimbabwe> Zimbabwe </option>
+            </select>
+            <button type=submit name=buttons  onclick=check()> Submit </button>
+        </div>
+    </form>
+</html>

@@ -1,0 +1,10 @@
+at:x:25:25:Batch jobs daemon:/var/spool/atjobs:/bin/bash
+avahi:x:487:486:User for Avahi:/run/avahi-daemon:/bin/false
+avahi-autoipd:x:491:489:User for Avahi IPv4LL:/var/lib/avahi-autoipd:/bin/false
+bin:x:1:1:bin:/bin:/bin/bash
+daemon:x:2:2:Daemon:/sbin:/bin/bash
+dnsmasq:x:489:65534:dnsmasq:/var/lib/empty:/bin/false
+ftp:x:40:49:FTP account:/srv/ftp:/bin/bash
+games:x:12:100:Games account:/var/games:/bin/bash
+kdm:x:485:483:KDM Display Manager daemon:/var:/bin/false
+lightdm:x:486:485:LightDM daemon:/var/lib/lightdm:/bin/false

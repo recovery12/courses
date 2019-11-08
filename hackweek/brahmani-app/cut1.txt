@@ -1,0 +1,1 @@
+To get certain characters:\n $  cut -c2 unix.txt\n  \nTo extract specific fields:\n $ cut -d\':\' -f1 unix.txt\n  \nTo select files other than specified files:\n $ cut -d\':\' --complement -s -f7

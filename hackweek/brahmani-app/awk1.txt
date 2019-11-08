@@ -1,0 +1,2 @@
+Basic awk command:\n $ awk \'{print}\' unix.txt\n  \nPrinting a line containing specific string:\n $ awk \'/unix/ {print}\' unix.txt\n  $ awk \'{print \$1,\$4}\' unix.txt\n  \nUsing NR:\n $ awk \'{print NR,\$0}\' .txt\n   \'NR\' means Number of Rows\n  \nUsing NF:\n $ awk \'{print \$1,\$NF}\' employee.txt\n    \'NF\' means Number of Fields
+

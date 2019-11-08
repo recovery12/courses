@@ -1,0 +1,2 @@
+The object id is a 12-byte hexcode
+which includes timestamp, machine id, process id, incrementor.

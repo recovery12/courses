@@ -1,0 +1,20 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%opening
+\title{}
+\author{P. Anurag}
+
+\begin{document}
+
+
+\newpage
+
+
+
+\begin{figure}
+ \includegraphics[scale=0.5]{adharb.PNG}
+\end{figure}
+
+
+\end{document}

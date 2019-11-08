@@ -1,0 +1,40 @@
+<html>
+<body>
+
+<p>please check foreign key and primary key constraints before entering. </p>
+
+<p>make sure the form is in localhost, if it is not please change file:///var/www/html/ to localhost.</p>
+<script type="text/javascript">
+			function submitForm(action) {
+				var form = document.getElementById("REG_FORM");
+				form.action = action;
+				form.submit();
+			}
+</script>
+
+
+
+<form id="REG_FORM" method = "GET" >
+
+Destination: <input type="text" name="DESTINATION"><br>
+
+vehicle_type: <input type="text" name="VEH_TYPE"><br>
+
+emp_id: <input type="text" name="EMP_ID"><br>
+
+departure : <input type="text" name="DEP_DATE"><br>
+
+departure_time : <input type="text" name="DEP_TIME"><br>
+
+<p> 
+				<input type="button" onclick="submitForm('REG_FORM.php')" value="Submit" />
+				<input type="button" onclick="submitForm('REGS_FORM.php')" value="Search"/>
+				<input type="button" onclick="submitForm('REGD_FORM.php')" value="Delete" />
+				<input type="button" onclick="submitForm('REG_FORM.html')" value="reset" />
+</p>	
+
+
+</form>
+
+</body>
+</html> 

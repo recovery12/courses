@@ -1,0 +1,167 @@
+#:kivy 1.0.3
+
+
+<MenuScreen>:
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text:'[color=#8ff442]PONG[/color]'
+            font_size:'40px'
+            markup:True
+        Button:
+            text: 'Single Device Mode'
+            on_press:
+                self.parent.parent.manager.transition.direction='up'
+                self.parent.parent.manager.current='samegame'
+                
+        Button:
+            text: 'Multiplayer Mode'
+            on_press:
+                self.parent.parent.manager.transition.direction='up'
+                self.parent.parent.manager.current='multi'
+        Button:
+            text:'Settings'
+            on_press:
+                self.parent.parent.manager.transition.direction='left'
+                self.parent.parent.manager.current='settings'
+        Button:
+            text:'About'
+            on_press:
+                self.parent.parent.manager.transition.direction='right'
+                self.parent.parent.manager.current='about'
+
+
+<SettingsScreen>:
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text: 'Settings'
+        Button:
+            text: 'Back to main menu'
+            on_press:
+                self.parent.parent.manager.transition.direction = 'right'
+                self.parent.parent.manager.current = 'menu'
+
+<AboutScreen>:
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text:'About'
+        Label:
+            text:'This game was created by Team Hot, Sweet and Sour during HackWeek 2017'
+        Label:
+            text:'Kivy, Buildozer and Cython were the main Python packages used in the creation'
+        Button:
+            text: 'Back to main menu'
+            on_press:
+                self.parent.parent.manager.transition.direction='left'
+                self.parent.parent.manager.current='menu'
+
+<MultiplayerScreen>:
+    BoxLayout:
+        orientation:'vertical'
+        Label:
+            text:'Multiplayer'
+        Button:
+            text:'Host game'
+        Button:
+            text:'Connect to Host'
+        Button:
+            text:'Back to main menu'
+            on_press:
+                self.parent.parent.manager.transition.direction='down'
+                self.parent.parent.manager.current='menu'
+<P1WinsScreen>:
+    BoxLayout
+        orientation:'vertical'
+        Label:
+            text:'Player 1 Wins!'
+        Button:
+            text:'Return to main menu'
+            on_press:
+                self.parent.parent.manager.transition.direction='down'
+                self.parent.parent.manager.current='menu'
+
+
+<P2WinsScreen>:
+    BoxLayout
+        orientation:'vertical'
+        Label:
+            text:'Player 2 Wins!'
+        Button:
+            text:'Return to main menu'
+            on_press:
+                self.parent.parent.manager.transition.direction='down'
+                self.parent.parent.manager.current='menu'
+
+
+<SameDeviceScreen>:
+    game:game_manager
+
+    PongGame:
+        index:1
+        id:game_manager
+        #pos:self.parent.pos
+        #center:self.parent.center
+
+#<MainFrame>:
+#    scmn:screen_manager
+#    game:game_manager
+
+#    ScM:
+#        id:screen_manager
+#        pos:self.parent.pos
+
+#    PongGame:
+#        id:game_manager
+
+<PongBall>:
+    size:50,50
+    canvas:
+        Ellipse:
+            pos:self.pos
+            size:self.size
+
+
+<PongPaddle>:
+    size:25,200
+    canvas:
+        Rectangle:
+            pos:self.pos
+            size:self.size
+
+<PongGame>:
+    ball:pong_ball
+    player1:player_left
+    player2:player_right
+
+    canvas:
+        Rectangle:
+            pos:self.center_x-5,0
+            size:10,self.height
+
+    Label:
+        font_size:70
+        center_x:root.width/4
+        top:root.top-50
+        text:str(root.player1.score)
+
+    Label:
+        font_size:70
+        center_x:3*root.width/4
+        top:root.top-50
+        text:str(root.player2.score)
+
+    PongBall:
+        id:pong_ball
+        center:self.parent.center
+
+    PongPaddle:
+        id:player_left
+        x:root.x
+        center_y:root.center_y
+
+    PongPaddle:
+        id:player_right
+        x:root.width-self.width
+        center_y: root.center_y

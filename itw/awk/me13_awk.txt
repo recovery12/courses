@@ -1,0 +1,23 @@
+ 1. Convert ods to csv
+  by using the commandline soffice --headless --convert-to csv amazon.ods
+
+ Remove the fisrt two lines by using sed and save it
+  sed '1,2d' amazon.csv
+
+a) sed 's/\$//' amazon.csv | awk -F, '{sum[$1]+=$NF} END { for (subj in sum) print subj, sum[subj]}'
+ 
+b) awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' amazon.csv | sed 's/\$//' | awk -F, '$1=="Books" && $3=="Amazon.com" {print $0}' | awk -F, '{sum+=$5} END {print" Books Revenve " sum}'
+
+c) awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' amazon.csv | sed 's/\$//' | awk -F, '$3=="Third Party"{print $0}' | awk -F, '{ship+=$4;rev+=$5} END {print " Total shipped items are "ship, " Total revenue is "rev}'
+
+2. First remove the data of supplementary by using sed and save it
+  sed '47,61d' marks.csv
+
+a) sed '1d' marks.csv | awk -F, '{min+=$8;maj+=$9} END {print " Average of minor is " min/NR, " Average of major is "maj/NR}' marks.csv 
+
+
+b)sed '1d' marks.csv | awk -F, '{grd[$11]++} 	END {for (i in grd) print i," grade for " grd[i]}'
+
+
+
+

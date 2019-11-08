@@ -1,0 +1,25 @@
+\documentclass[11pt]{beamer}
+
+\begin{document}
+
+\begin{frame}
+    \transglitter<2-4> %means that the effect is within the frame but only for slide 2 to 4
+
+    \frametitle{Test}
+        \begin{itemize}
+            \item \onslide<2->{One} %shown from slide 2 till last slide of this frame
+            \item \onslide<3->{Two}
+            \item \onslide<4->{Three}
+        \end{itemize}
+\end{frame}
+
+  \begin{visibleenv}
+  
+    \begin{beamerboxesrounded}
+      [shadow=true, lower=strong warn]{}
+      \Large\centering
+      unless you have a very good reason for using them.
+    \end{beamerboxesrounded}
+\end{visibleenv}
+
+\end{document}

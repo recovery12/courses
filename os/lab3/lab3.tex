@@ -1,0 +1,42 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+
+\title{Operating Systems Lab-3 (Signals)}
+\author{P. Anurag\\17MCME13}
+\date{}
+
+\pdfinfo{%
+  /Title    (OS-Lab3)
+  /Author   (Anurag Peddi)
+  /Creator  ()
+  /Producer ()
+  /Subject  (Lab Submission)
+  /Keywords (signals, kill)
+}
+
+\begin{document}
+\maketitle
+  \begin{enumerate}
+    \item[Q1] I have sent a basic signal SIGINT(CTRL-C) by keeping it in a infinte loop, it handled it
+    properly and the loop is still running.
+    \item[Q2] We can handle every signal except two signals SIGKILL and SIGSTOP because these are kept
+              by the operating systems for an emergency purpose; sending the kill -x pid (x is a signal)
+              multiple times also doesn't effect the program, it's being handled.
+    \item[Q3] If we send a signal to the program during it's sleep then OS immediately wakes up the process
+              from the sleep and gives back the execution to the program.
+    \item[Q4] I have opened firefox in background whose pid is 4797
+              Then by typing pstree -s 4797 it listed all the parent \& child processes which 
+              are associated to pid 4797\\
+              The output is: \\
+              $systemd----lightdm---lightdm---upstart---gnome-terminal----bash---firefox---Web-content ... $
+              Bash: Shell on which I am working.
+              gnome-terminal: Terminal emulation application which provides access to unix shell in GNOME environment.
+              upstart: It is an event-based replacement for /sbin/init deamon.
+              lightdm: It is a display manager.
+              systemd: systemd is a system and service manager for linux operating system.
+    \item[Q5] Except for the SIGCHILD all other signals are killing it.
+              For SIGCHILD the default action is ignore so it's just ignoring the signal.
+  \end{enumerate}
+
+\end{document}

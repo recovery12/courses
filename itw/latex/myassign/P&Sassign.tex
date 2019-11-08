@@ -1,0 +1,171 @@
+\documentclass{article}
+\usepackage{latexsym,amsmath,amssymb,textcomp}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+
+\title{Probability and Stastics}
+\author{P.Anurag}
+\date{\today}
+
+\pdfinfo{%
+  /Title    (P & S)
+  /Author   (P.Anurag)
+  /Creator  ()
+  /Producer ()
+  /Subject  (Distributions)
+  /Keywords ()
+}
+
+\begin{document}
+\maketitle
+
+\tableofcontents
+
+\section{Tables}
+\subsection[]{Distribution Tables}
+
+\newpage
+
+\begin{table}
+ \centering
+ \caption{Properties of Discrete Distribution}
+ \begin{tabular}{||c||c||c||c||c||}
+ \hline
+ \hline
+ {\bf Distribution} & {\bf \begin{tabular}{@{}c@{}}
+                              Probability \\ Mass \\Function
+                            \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                     Probability \\ Generating \\ Function
+                                                   \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                           Moment \\ Generating \\ Function
+                                                                          \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                                                  Characteristic \\ Function
+                                                                                                 \end{tabular}} \\
+  \hline
+  \hline
+  Bernoulli & $ p^x(1-p)^{1-x} $ & $ q+pz $ & $ q+pe^t $ & $ q+pe^{it} $ \\ 
+  \hline
+  \hline
+  Binomial  & $ \binom nk p^k(1-p)^{n-k} $  & $ [(1-p)+pz]^n $ & $ [(1-p)+pe^t]^n $ & $ [(1-p)+pe^{it}]^n $ \\
+  \hline
+  \hline
+  Geometric & $ (1-p)^{k-1}p $   & $ \frac{pt}{1-(1-p)t} $  & $ \frac{pe^t}{1-(1-p)e^t} $ & $ \frac{pe^{it}}{1-(1-p)e^{it}} $ \\
+  \hline
+  \hline
+  \begin{tabular}{@{}c@{}}
+   Negative \\ Binomial
+  \end{tabular} & $ \left( \begin{array}{c}
+                             k-r+1 \\
+                              k    \\
+                    \end{array} \right)(1-p)^rp^k
+  $ & $ (\frac{1-p}{1-pz})^r $ & $ (\frac{1-p}{1-pe^t})^r $ & $ (\frac{1-p}{1-pe^{it}})^r $ \\
+  \hline
+  \hline
+  Poisson & $ \frac{\lambda^ke^{-\lambda}}{k!}  $ & $ e^{\lambda(z-1)} $ & $ e^{\lambda(e^t-1)} $ & $ e^{\lambda(e^{it}-1)} $ \\
+  \hline
+  \hline
+ \end{tabular}
+\end{table}
+
+\begin{table}
+ \centering
+ \caption{Properties of Continous Distribution}
+ \begin{tabular}{||c||c||c||c||c||}
+ \hline
+ \hline
+ {\bf Distribution} & {\bf \begin{tabular}{@{}c@{}}
+                             Probability \\ Density \\ Function
+                            \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                   Probability \\ Generating \\ Function
+                                                  \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                        Moment \\ Generating \\ Function
+                                                                       \end{tabular}} & {\bf \begin{tabular}{@{}c@{}}
+                                                                                             Characteristic \\ Function
+                                                                                            \end{tabular}} \\ 
+ \hline
+ \hline
+  Exponential & $ \lambda e^{-\lambda x} $ & $ \frac{\lambda}{\lambda-logt} $ &  $ \frac{\lambda}{\lambda-t} $ & $ \frac{\lambda}{\lambda-it} $ \\
+  \hline
+  \hline
+  Gamma & $ \frac{1}{\Gamma(k)\theta^k}x^{k-1}e^{-\frac{x}{\theta}} $ & $ (1-\theta logt)^{-k} $ & $ (1-\theta t)^{-k} $ & $ (1-\theta it)^{-k} $ \\
+  \hline
+  \hline
+  Normal & $ \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}} $ & & $ e^{\mu t+\frac{1}{2}\sigma^2t^2} $ & $ e^{\mu t-\frac{1}{2}\sigma^2t^2} $ \\
+  \hline
+  \hline
+   Log-Normal & $ \frac{1}{x\sigma\sqrt{2\pi}}e^{-\frac{ln(x-\mu)^2}{2\sigma^2}} $ & & $ e^{n\mu+n^2\frac{\sigma^2}{2}} $ & $ \sum\limits^\infty_{n=0}\frac{(it)^n}{n!}e^{n\mu+n^2\frac{\sigma^2}{2}}  $ \\
+   \hline
+   \hline
+   Weibull & $ \frac{k}{\lambda}(\frac{x}{k})^{k-1}e^{-(\frac{x}{\lambda})^k} \mbox{for}  x\geq0  $ & & $ \sum\limits^\infty_{n=0}\frac{t^n\lambda^n}{n!}\Gamma(1+\frac{n}{k}) $ & $ \sum\limits^\infty_{n=0}\frac{(it)^n\lambda^n}{n!}\Gamma(1+\frac{n}{k}) $ \\
+   \hline
+   \hline
+
+ \end{tabular}  
+\end{table}
+
+\subsection[]{Regression Tables}
+\subsubsection{Values of $ \phi $ in Orthogonal Regression Table for n=7}
+
+\begin{table}
+ \centering
+ \caption{Orthogonal Regression Table for n=7}
+ \begin{tabular}{||c||c||c||c||c||c||c||c||}
+ \hline
+ \hline
+$ \xi_i $&$ \phi_0  $&$ \phi_1 $&$ \phi_2  $& $ \phi_3 $ & $ \phi_4  $ & $ \phi_5 $ & $ \phi_6 $ \\
+  \hline
+  \hline
+  -3 & 1 & -3 & 5 & -1 & 3 & -1 & 1 \\
+  \hline
+  \hline
+  -2 & 1 & -2 & 0 & 1 & -7 & 4 & -6 \\
+  \hline
+  \hline
+  -1 & 1 & -1 & -3 & 1 & 1 & -5 & 15 \\
+  \hline
+  \hline
+   0 & 1 & 0 & -4 & 0 & 6 & 0 & -20 \\
+  \hline 
+  \hline
+   1 & 1 & 1 & -3 & -1 & 1 & 5 & 5 \\
+   \hline
+   \hline
+   2 & 1 & 2 & 0 & -1 & -7 & -4 &-6 \\
+   \hline
+   \hline
+   3 & 1 & 3 & 5 & 6 & 3 & 1 & 1 \\
+   \hline
+   \hline
+   $\lambda^2$ & 6 & 28 & 84 & 6 & 154 & 84 & 924 \\
+   \hline
+   \hline
+  
+ \end{tabular}
+\end{table}
+
+\begin{enumerate}
+ \item $ \phi_0 = 1 $
+ \item $ \phi_1 = \xi_i $ 
+ \item $ \phi_2 = \xi_i^2-4 $
+ \item $ \phi_3 = \xi_i(\xi_i^2-7) $ 
+ \item $ \phi_4 = 7\xi_i^4-67\xi_i^2+72 $
+ \item $ \phi_5 = \xi_i(21\xi_i^4-245\xi_i^2+2096) $
+ \item $ \phi_6 = 77\xi_i^6-1015\xi_i^4+3038\xi_i^2-1200 $ 
+\end{enumerate}
+
+\begin{table}
+ \centering
+ \caption{Orthogonal Regression Table for n=8}
+ \begin{tabular}{||c||c||c||c||c||c||c||c||c||}
+  \hline
+  \hline
+  $ \xi_i $&$ \phi_0 = 1 $&$ \phi_1 = \xi_i $&$ \phi_2  $& 
+                                              $ \phi_3  $&$ \phi_4 $&$ \phi_5$ & 
+                                                                    $ \phi_6 $ &  $\phi_7 $\\
+ \end{tabular}
+
+\end{table}
+
+
+\end{document}

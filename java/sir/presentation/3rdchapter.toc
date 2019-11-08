@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Inheritance}{3}{0}{1}
+\beamer@sectionintoc {2}{method Overriding}{5}{0}{2}
+\beamer@sectionintoc {3}{Overriding object class methods}{6}{0}{3}
+\beamer@sectionintoc {4}{Abstract class}{8}{0}{4}
+\beamer@sectionintoc {5}{interface}{10}{0}{5}
+\beamer@sectionintoc {6}{garbage collector}{11}{0}{6}

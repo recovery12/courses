@@ -1,0 +1,1 @@
+#!/bin/bash\nfor file in $PWD/*\ndo\n    echo $file\n    ext=$(echo $file | sed \'s/.*\.//\')\n    echo $ext\n    if [ $ext = $1 ]\n    then\n        file1=$(echo $file | sed \"s/\.[a-z]*/\.$2/g\")\n         echo $file1\n         mv $file $file1\n    fi\ndone

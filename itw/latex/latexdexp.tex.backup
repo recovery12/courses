@@ -1,0 +1,66 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{}
+\author{}
+
+\begin{document}
+
+\maketitle
+\[
+\frac{\sum\limits^{n^{3}}_{k=0} z^k}{\prod\limits^{n}_{k=1} (n^{11} + k)} \quad OR \quad \frac{-b\pm\sqrt[3]{b^2-4\times a \times c}}{2\times a} 
+\]
+\begin{abstract}
+
+\[ 
+\vec{x} \stackrel{def}{\rightarrow} ( x_{1}, \cdots , x_{n} ) 
+\]
+
+\[
+ E(\frac{\sum(x_{i}-\vec{x})^2}{n}) \quad = \quad \frac{\sigma^2}{n} E(\sum(\frac{}{×}
+\]
+
+\begin{table}
+ \begin{tabular}{|c|c|c|c|}
+ \hline
+  \multicolumn{2}{|c|}{\bf VSI Parameters} & minimum value & maximum value
+  \tabularnewline
+  \cline{1-2}
+  \hline
+  \multicolumn{1}{|c|}{outer loops} & $ k_{pl} $ & 0.002 & 5 \\
+  \multicolumn{1}{|c|}{} & $ T_{il} $ & 0.0001 & 0.5 \\
+  \multicolumn{1}{|c|}{} & $ k_{p2} $ & 0.01 & 3 \\
+  \multicolumn{1}{|c|}{} & $ T_{i2} $ & 0.0001 & 0.5 \\
+  \hline
+ \end{tabular}
+\end{table}
+
+\begin{table}
+ \begin{tabular}{ccccccccccccccc}
+% \caption{types of methods}
+ \hline
+ Measures & Task & \multicolumn{4}{c}{Method1} & \multicolumn{4}{c}{Method2} & \multicolumn{4}{c}{Method3} & p-value \\
+ \hline
+ \hline
+ \newline
+  & & 1 & 2 & 3 & 4 & 1& 2 & 3 & 4& 1&2&3&4& \\
+  \cline{3-6} \cline{7-10} \cline{11-14} \cline{15-15}
+  \newline
+  
+ \end{tabular}
+
+\end{table}
+
+
+
+
+
+
+
+
+\end{abstract}
+
+\section{}
+
+\end{document}

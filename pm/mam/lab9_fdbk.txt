@@ -1,0 +1,62 @@
+ME02: Warnings on compilation of sort.c.
+Unsigned mode2: When input is (1000 200 2 200 200 200 200 2), gives mode as 2
+with frequency 200. When input consists of only one number with limit given
+as 3, it gives an error message. But, this is wrong. Limit means that is the
+maximum and not minimum! How can you name a structure that contains values
+and their frequencies as std_t???? Come on, how many times should I ask you
+to use meaningful names! Use of the structure is really really bad! You are
+NOT supposed to declare a structure of two arrays. A structure is one record.
+It contains information for one number and its frequency. You are supposed to
+then contain an array of structures. So, it goes like this:
+struct val_freq{
+  int value;
+  int freq;
+};
+struct val_freq  freq_table[R];
+Sort: passes all tests.
+
+ME03: swap() is a function which is used by the sort function. So, it should
+actually be in the sort.c file as a static function than have it alone in
+another .c file. You are verifying if the sufficient number of arguments are
+given after using argv[2] to determine R. This is obviously wrong as if no
+arguments are given, your program can crash. Do the checking always as the
+first statement for command line parameters before any logic is done using
+them. R is the maximum number of unique values. It is not minimum. Please
+understand the spec properly. Once this is removed passes all tests. You are
+however not really using R as you have declared your array of structures to
+be of much larger size. You dont need to in this case. I also thought I said
+that you should read one value at a time because the file can potentially
+have infinite number of values. You are now reading it into an array and
+this will fail when the values exceed the array size. Dont do this unless it
+is given explicitly as part of spec that you are to take an array as input to
+the function. (-1) for this issue.
+Sort: passes all tests.
+
+ME06: No marks for unsorted mode as it does not use array of structures which
+was a requirement.
+Sort: passes all tests.
+
+ME07: Same code as me02. Mixing up spaces and tabs!
+Sort: When input is (2, 1), gives wrong output - prints (2, junk value). When
+given input (6 2 1), gives (6 1 2) as output and so on. Almost no case 
+succeeds.
+
+ME12: R is the limit means maximum unique values - not minimum. Should not
+give error if no. of unique values < R. Same problem as ME02 - it should be
+array of structures - not a structure of arrays.
+Sort: Passes all tests.
+
+ME13: Warning on compilation ignored.
+Umode: Passes all tests. Well done!
+Sort: Passes all the tests.
+
+ME19: Unsorted mode: Well done! Passes all tests. Will be good to print freq
+too. Sorting passes all tests.
+
+ME21: Having less than R unique values is NOT an issue. It is the MAXIMUM
+unique values, not MINIMUM!
+Sort: Passes all tests.
+
+ME23: Having less than R unique values is NOT an issue. It is the MAXIMUM
+unique values, not MINIMUM!
+Sort: Passes all tests.

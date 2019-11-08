@@ -1,0 +1,27 @@
+OpenFlow protocol was proposed to enable research in campus networks. 
+As OpenFlow specification states, today, there is almost no practical way 
+to experiment with new network protocols (e.g., new routing protocols, or 
+alternatives to IP) in sufficiently realistic settings (e.g., at scale 
+carrying real traffic) to gain the confidence needed for their widespread
+deployment. Hence most new ideas from the networking research community
+go untried and untested. The solution is to have networks designed in
+such a way that it follows the two major design principles: modularity
+and abstraction. Hence to support this, OpenFlow protocol is used which
+helps in following ways as given in Section 1.
+
+The OpenFlow protocol is basically a protocol which is used for
+communication between an SDN controller and a switch. This protocol lets
+the switch talk to the controller about processing of a packet and also
+lets the controller alter the switch's flow table. The OpenFlow protocol
+is layered on top of TCP, and prescribes the use of TLS. Controllers
+should listen on TCP port 6653 for switches that want to set up a
+connection.
+
+OpenFlow switches are categorised into:
+1. Dedicated OpenFlow switches : These forward packets between ports, as 
+defined by a controller. 
+
+2. OpenFlow enabled switches : As mentioned earlier, OpenFlow protocol 
+achieves separation of production traffic from experimental traffic. 
+
+

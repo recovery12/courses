@@ -1,0 +1,30 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+
+\title{Operating Systems Lab-4 (Pipes)}
+\author{P. Anurag\\17MCME13}
+\date{}
+
+\pdfinfo{%
+  /Title    (OS-Lab4)
+  /Author   (Anurag Peddi)
+  /Creator  ()
+  /Producer ()
+  /Subject  (Lab Submission)
+  /Keywords (Pipe, fork, read, write)
+}
+
+\begin{document}
+\maketitle
+  \begin{enumerate}
+    \item[Q1] I have observed a major difference with waitpid() function
+              if there is no waitpid function the program takes only
+              a part of the program and outputs the screen, if there is
+              waitpid then it outputs the complete txt file to the
+              screen.
+    \item[Q2] In this program, after giving a line for every newline
+              character it stores it the buffer and then the 
+  \end{enumerate}
+
+\end{document}

@@ -1,0 +1,1 @@
+ls,cp,rm,mv,chmod,chown,mkdir,cd,pwd,alias,.bashrc,cat,less,more,zip,wc,rmdir

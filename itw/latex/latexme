@@ -1,0 +1,34 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{latexsym,amsmath,amssymb}
+
+%opening
+\title{Latex Demo}
+\author{P.Anurag}
+
+\begin{document}
+
+\maketitle
+\section{Table}
+
+\begin{table}[!hbt]
+ \centering
+ \caption{Education details}
+ \begin{tabular}{|c|c|c|c c c|}
+ \hline
+ {\bf Course} & {\bf YOP} & {\bf School/College} & \multicolumn{3}{c|} {Marks}
+
+ \tabularnewline
+ \cline{4-6}
+  \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & 
+  Otained & Max & Percentage
+  \tabularnewline
+  \hline
+  SSC & 2015 & SR Digi School & 552 & 600 & 92\\
+  Inter & 2017 & Narayana Junior College & 983 & 1000 & 98\\
+  JEE Mains & 2017 & JOSAA & 184 & 360 & 51\\
+  \hline
+ \end{tabular}
+\end{table}
+
+\end{document}

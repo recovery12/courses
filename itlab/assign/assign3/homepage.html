@@ -1,0 +1,28 @@
+<html>
+    <title>
+        Home page for assignment-2
+    </title>
+
+    <head>
+        <h1> <center> Problem Links </center> </h1>
+        <link rel=stylesheet type=text/css href=homepage.css>
+    </head>
+
+    <body>
+        <div name=links align=center>
+            <script>
+                var i, n = 20, que;
+                for (i = 0; i < n; i++)
+                {
+                    que = "que"+(i+1)+".html";
+                    document.write("<button name=btn id=btn onclick="+que+"> Problem"+(i+1)+" </button>");
+                    document.write(" ");
+                    if ((i+1)%4 == 0)
+                    {
+                        document.write("<br><br>");
+                    }
+                }
+            </script>
+        </div>
+    </body>
+</html>

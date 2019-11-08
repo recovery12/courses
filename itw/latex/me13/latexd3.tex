@@ -1,0 +1,102 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%opening
+\title{Latex demo}
+\author{P.Anurag}
+
+\begin{document}
+
+\maketitle
+
+\section{Table}
+
+\begin{table}[!hbt]
+ \centering
+ \caption{Education details}
+ \begin{tabular}{|c|c|c|c c c|}
+ \hline
+ {\bf Course} & {\bf YOP} & {\bf School/College} & \multicolumn{3}{c|} {Marks}
+
+ \tabularnewline
+ \cline{4-6}
+  \multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & 
+  Otained & Max & Percentage
+  \tabularnewline
+  \hline
+  SSC & 2015 & SR Digi School & 552 & 600 & 92\\
+  Inter & 2017 & Narayana Junior College & 983 & 1000 & 98\\
+  JEE Mains & 2017 & JOSAA & 184 & 360 & 51\\
+  \hline
+ \end{tabular}
+\end{table}
+
+\begin{table}[!hbt]
+ \centering
+ \caption{Time Table}
+ \begin{tabular}{|c|c|c|c|}
+  \hline
+  \multicolumn{4}{|c|}{\bf Time table}
+  \tabularnewline
+  \cline{1-4}
+  
+  Day & 9 AM -10 AM & 10 AM - 11 AM & 11 AM - 12 AM\\
+  \hline
+  Monday & CS 201 & CS 202 & CS 203\\
+  \hline
+  Tuesday & \multicolumn{2}{|c|}{CS 202} & CS 201\\
+  \hline
+  Wednesday & \multicolumn{3}{|c|}{Seminar}\\
+  \hline
+  
+ \end{tabular}
+ 
+\end{table}
+
+\section{Equation Demo}
+
+\[
+ \left|\sum^{n}_{i=0} a_i
+ \right|
+ \leq
+ {\left(\sum^{n}_{i=0} a_i
+ \right)}^2
+\]
+\[\left[\begin{array}{cc}
+          \left|\begin{array}{cc}
+                      p & q\\
+                      r & s\\
+          \end{array} \right| & b\\
+                              c & d\\
+         \end{array}
+  \right]
+\]
+
+\[
+ \left|\sum^{n}_{1=1} a_i b_i
+ \right|
+ \leq
+ {\left(\sum^{n}_{i=1} a^{2}_i
+  \right)}^{1/2}
+  {\left(\sum^{n}_{i=1} b^{2}_i
+  \right)}^{1/2}
+\]
+\[f(x) = 
+ \left\{
+ \begin{array}{ll}
+  \left|
+        \begin{array}{ll}
+               x-1 & x-2 \\
+               x-3 & x-4 \\
+        \end{array}
+        \right|& \mbox{if $x\geq4$}\\
+        -x & \mbox{if $x<4$}
+        \end{array}
+  \right.
+\]
+ 
+\[
+\frac{\sum\limits^{n^{3}}_{k=0} z^k}{\prod\limits^{n}_{k=1} (n^{11} + k)} \quad OR \quad \frac{-b\pm\sqrt[3]{b^2-4\times a \times c}}{2\times a} 
+\]
+
+\end{document}

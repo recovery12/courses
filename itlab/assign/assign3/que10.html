@@ -1,0 +1,63 @@
+<html>
+    <title>
+        Qusetion 10
+    </title>
+
+    <head>
+        <h1> <center> Fill the form </center> </h1>
+    </head>
+
+    <body>
+        <script type=text/javascript>
+            function display()
+            {
+                var val = ""
+                if (enter.name.value == "")
+                {
+                    val = val + " Customer Name"
+                }
+
+                if (enter.addr.value == "")
+                {
+                    val = val + " Address"
+                }
+
+                if (enter.lang.value == "")
+                {
+                    val = val + " Languages Known"
+                }
+
+                if (enter.city.value == "")
+                {
+                    val = val + " City"
+                }
+
+                if (val != "")
+                {
+                    alert("These fields are mandatory"+val)
+                }
+            }
+        </script>
+    </body>
+
+    <form name=enter onsubmit=display()>
+        Customer name:
+        <input name=name type=text value=""> <br>
+        Address:
+        <input name=addr type=text value=""> <br>
+
+        Gender:
+        <select name=gender>
+            <option name=select> --Select-- </option>
+            <option name=m> Male </option>
+            <option name=f> Female </option>
+        </select>
+        <br>
+        
+        Languages Known:
+        <input name=lang type=text value=""> <br>
+        City:
+        <input name=city type=text value=""> <br>
+        <input name=btn type=submit value=Submit><br>
+    </form>
+</html>

@@ -1,0 +1,7 @@
+in /etc/passwd
+
+username:encryptedpasswd:uid:gid:user info:homedirectory:shell
+
+in /etc/groups
+
+groupname:passwd:gid:grouplist

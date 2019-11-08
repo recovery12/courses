@@ -1,0 +1,45 @@
+<html>
+   <head>
+      <h1> Point inside or not </h1>
+   </head>
+
+   <body>
+      <script type=text/javascript>
+         function circle()
+         {
+            var x, y, a, b, r;
+
+            x = parseFloat(point.x.value);
+            y = parseFloat(point.y.value);
+            a = parseFloat(point.a.value);
+            b = parseFloat(point.b.value);
+            r = point.r.value;
+
+            if ((x-a)*(x-a) - (y-b)*(y-b) < r*r)
+            {
+               alert("("+a+", "+b+") is inside circle.");
+            }
+            else if ((x-a)*(x-a) - (y-b)*(y-b) > r*r)
+            {
+               alert("("+a+", "+b+") is outside circle.");
+            }
+            else
+            {
+               alert("("+a+", "+b+") is on the circle.");
+            }
+         }
+      </script>      
+   </body>
+
+   <form name=point onsubmit=circle()>
+      X-coordinate of center: <input type=text name=x value="">
+      Y-coordinate of center: <input type=text name=y value="">
+      <br> </br>
+      Radius of the circle: <input type=text name=r value="">
+      <br> </br>
+      X-coordinate of point: <input type=text name=a value="">
+      Y-coordinate of point: <input type=text name=b value="">
+      <br> </br>
+      <input type=submit name=button value=Compute>
+   </form>
+</html>

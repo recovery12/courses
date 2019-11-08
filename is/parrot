@@ -1,0 +1,63 @@
+parrot security system
+
+anger ip scanner from angerip.org
+nmap <ip address>
+
+ports in computer 
+0-65535
+
+well known ports
+
+80---http
+
+21----ftp(login)
+
+22---ssh(secure shell ssh)
+
+23----Telnet(terminal network)
+
+25---smtp(simple mail transfer protocol)
+
+443---http/s
+
+Registerd ports
+
+1024-49151
+
+3389----rdp(remote desktop protocol) MS login
+
+1521----Oracle
+
+dynamic ports
+
+49152-65535
+
+
+
+
+showdan,msrpc
+
+nmap <ip addr>
+nmap -sV <ip addr>
+
+msfconsole gaining access phase
+ms08-067
+
+metapreter ,run vnu
+
+spytomobile.com
+mobilespy.com
+
+ sniffing
+ wireshark from wireshark.org
+hackingtools.in
+
+man in the middle
+
+Xarp spoofing for detecting man in the middle attack
+
+bettercap
+
+wpa wps tester
+
+robo.tst

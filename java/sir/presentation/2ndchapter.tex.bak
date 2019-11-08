@@ -1,0 +1,135 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+\usepackage{graphicx}
+%\usepackage{comment}
+\title{JAVA LAB}
+\author{2nd chapter}
+\date{\today}
+\institute[SCIS, UOH] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=2cm, height=2cm]{university_logo.png}
+    \end{figure}
+    School of Computer and Information Sciences \\
+    University of Hyderabad \\ % Your institution for the title page
+\medskip
+}
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+\begin{frame}
+    \tableofcontents
+\end{frame}
+\section{Introduction class}
+\begin{frame}
+    \frametitle{what is class?}
+    class is the basic building block of an "object oriented language". It is template that describes the data and behaviour associated with object(instance of class). In General, it is blueprint of object. It is collection of data members, methods, subclasses.\\
+    \textbf{syntax:}\\
+
+
+    class \textless\textless classname \textgreater\textgreater \{\\
+        ...data members\\
+        ...methods\\
+        ...subclasses\\
+
+    \}
+\end{frame}
+\section{Methods}
+\begin{frame}
+    \frametitle{what is method?}
+    Method is same as functions in c but in java we have special functions without return anything known as constructors. For constructors name is same as class name. In general, object own properties are declared in constructor.\\
+    \textbf{syntax:}\\
+
+
+    class \textless\textless classname \textgreater\textgreater \{
+
+
+        \textless\textless classname \textgreater\textgreater() \{
+           ...\\
+           ... \\
+        \}\\
+
+
+        int  method1()\{\\
+        ...\\
+        ...\\
+        \}
+
+        \}
+\end{frame}
+\section{object creation}
+\begin{frame}
+    \frametitle{what is object?}
+    Object is a run time entity.\\
+\textbf{object creation:}\\
+In java, object is created by \textbf{new} keyboard. \\
+
+\textbf{syntax:}
+
+
+\textless\textless classname \textgreater\textgreater  \textless\textless class variable \textgreater\textgreater = new \textless\textless classname \textgreater\textgreater()\\
+
+Here is the example covering all the above concepts \href{class_object.java}{\color{green}{classobject}}\\
+
+\textbf{accessing members in class:}
+
+classvariable.method()\\
+classvariable.datamember
+\end{frame}
+\section{Overloading}
+\begin{frame}
+    \frametitle{Overloading}
+    \textbf{Overloading :}Method name is same but differ in type of parameters or number of parameters of function.
+    There are two types of overloading-
+    \begin{enumerate}
+        \item method overloading.
+        \item constructor overloading.
+    \end{enumerate}
+    Here is the example of method overloading:-\href{method_overload.java}{\color{green}{method overloading}} \\
+    Here is the example of constructor overloading:-\href{constructor_overload.java}{\color{green}{constructor loading}}
+\end{frame}
+\begin{frame}
+    \frametitle{copy constructor}
+    Java allows copy constructor.\\
+    Here is the sample program \href{copy_constructor.java}{\color{green}{copy constructor}}
+\end{frame}
+\section{Access modifiers}
+\begin{frame}
+    \frametitle{access modifiers}
+    Access modifiers helps to restrict the scope of class, method or datamember.
+    In general , there are four access modifiers.
+    \begin{enumerate}
+        \item public
+        \item private
+        \item protected
+        \item default
+    \end{enumerate}
+    \textbf{public:} accessible to all.\\
+    \textbf{private:} accessible to same class, which it is declared.\\
+    \textbf{protected:}accessible within all classes in the same package and within subclasses in other packages.\\
+    \textbf{Default:} accessible within classes in the same package.
+\end{frame}
+\section{Type conversion and casting}
+\begin{frame}
+    \frametitle{type conversion and type casting}
+    \textbf{widening:}automatic type conversion.\\
+        example:- \\
+                    int i=10;\\
+                    long l;\\
+                    l=i;(no error automatic type conversion).\\
+    \textbf{narrowing:}manual type casting is required.\\
+    example:- \\
+                double i=10.02;\\
+                int j;\\
+                j=i;(error)\\
+                j=int(i);(manual type cast)
+\end{frame}
+\begin{frame}
+    \center \textbf{Questions?}
+\end{frame}
+\begin{frame}
+    \center \textbf{Thank you}
+\end{frame}
+\end{document} 

@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <h1> Dot product of two vectors </h1>
+   </head>
+
+   <body>
+      <script type=text/javascript>
+         function dotp()
+         {
+            var val = 0;
+
+            val = val + dot.i1.value * dot.i2.value;
+            val = val + dot.j1.value * dot.j2.value;
+            val = val + dot.k1.value * dot.k2.value;
+            alert("Dot Product is: "+val);
+         }
+      </script>      
+   </body>
+
+   <form name=dot onsubmit=dotp()>
+      <input type=text name=i1 value="">
+      <input type=text name=j1 value="">
+      <input type=text name=k1 value="">
+      <br> </br>
+      <input type=text name=i2 value="">
+      <input type=text name=j2 value="">
+      <input type=text name=k2 value="">
+      <br> </br>
+      <input type=submit name=button value=Compute>
+   </form>
+</html>

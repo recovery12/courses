@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\beamer@sectionintoc {2}{Early Life}{5}{0}{2}
+\beamer@sectionintoc {3}{Qualifications}{8}{0}{3}
+\beamer@sectionintoc {4}{Career}{12}{0}{4}
+\beamer@sectionintoc {5}{Awards and Honours}{22}{0}{5}
+\beamer@sectionintoc {6}{Contributions}{27}{0}{6}
+\beamer@sectionintoc {7}{Fields of Interest}{28}{0}{7}
+\beamer@sectionintoc {8}{References}{32}{0}{8}

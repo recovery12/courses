@@ -1,0 +1,87 @@
+<html>
+   <head>
+      <h1> A Virtual Keyboard </h1>
+      <!--<meta http-equiv="refresh" content="1">-->
+   </head>
+
+   <form name=calcy onclick=display()>
+      <input type=text name=textbox value="">
+      <input type=submit name=button value=compute>
+   </form>
+   <body>
+      <script type=text/javascript>
+         function display()
+         {
+            alert("Your text is "+calcy.textbox.value);
+         }
+         function rmdups()
+         {
+            var i, j, k = 0, n = 26, chk = 0;
+            var arr = [], tmp = [];
+
+            for (i = 0; i < n; i++)
+            {
+               arr.push(Math.round(Math.random() * (n-1)));
+            }
+            for (i = 0; i < n; i++)
+            {
+               chk = 0;
+               for (j = 0; j < n; j++)
+               {
+                  if (arr[j] == i)
+                  {
+                     chk = 1;
+                     break;
+                  }
+               }
+               if (chk == 0)
+               {
+                  tmp.push(i);
+               }
+            }
+            for (i = 0; i < n; i++)
+            {
+               for (j = i+1; j < n; j++)
+               {
+                  if (arr[i] == arr[j])
+                  {
+                     arr[j] = tmp[k];
+                     k++
+                  }
+               }
+            }
+            return arr;
+         }
+
+         function shuffle()
+         {
+            var i, n = 26;
+            var arr, arr1 = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+            arr = rmdups();
+
+            k = 0
+            for (i = 0; i < n; i++)
+            {
+               if (k < 6)
+               {
+                   document.write("<button type=reset onclick=fun("+arr[i]+") align=center>"+arr1[arr[i]]+"</button>");
+                   k++;
+               }
+               else
+               {
+                   document.write("<br>");
+                   k = 0;
+               }
+            }
+         }
+         function fun(x)
+         {
+            var arr = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+            calcy.textbox.value += arr[x];
+            //shuffle()
+         }
+         shuffle()
+      </script>
+   </body>
+
+</html>

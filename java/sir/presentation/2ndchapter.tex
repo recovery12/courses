@@ -1,0 +1,261 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+\usepackage{graphicx}
+%\usepackage{comment}
+\title{JAVA LAB}
+\author{2nd chapter}
+\date{\today}
+\institute[SCIS, UOH] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=2cm, height=2cm]{university_logo.png}
+    \end{figure}
+    School of Computer and Information Sciences \\
+    University of Hyderabad \\ % Your institution for the title page
+\medskip
+}
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+\begin{frame}
+    \tableofcontents
+\end{frame}
+\section{Introduction class}
+\begin{frame}
+    \frametitle{What is class?}
+    Class is the basic building block of an "object oriented language". It is template that describes the data and behaviour associated with object(instance of class). In General, it is design plan of an object. It is a collection of data members, methods, subclasses.\\
+    \textbf{syntax:}\\
+
+
+    class \textless\textless classname \textgreater\textgreater \{\\
+        ...data members\\
+        ...methods\\
+        ...subclasses\\
+
+    \}
+\end{frame}
+\begin{frame}
+\frametitle{Examples}
+Class Customer\\
+Attributes:\\
+name\\
+address\\
+budget\\
+Methods:\\
+purchase() \{send a purchase request to a salesperson\}\\
+getBudget() \{return budget\}\\
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+Sean as an Object\\
+Attributes:\\
+name = Sean;\\
+Methods:\\
+takeOrder() \{\\
+check with warehouse on stock availability\\
+check with warehouse on delivery schedule\\
+if ok\\
+then {instruct warehouse to deliver stock(address, date)\\
+return ok}\\
+else return not ok\\
+\}\\
+\end{frame}
+\section{Methods}
+\begin{frame}
+    \frametitle{What is method?}
+    Method is same functions as in c. But in java, we have special functions, without returning anything, known as constructors. For constructors, name is same as class name. In general, object properties are declared in constructor.\\
+    \textbf{syntax:}\\
+
+
+    class \textless\textless classname \textgreater\textgreater \{
+
+
+        \textless\textless classname \textgreater\textgreater() \{
+           ...\\
+           ... \\
+        \}\\
+        int  method1()\{\\
+        ...\\
+        ...\\
+        \}
+
+        \}
+\end{frame}
+\begin{frame}
+\frametitle{Examples}
+class Counter \{\\
+int number;\\
+int reused = 0;\\
+void add() \{\\
+number = number+1;\\
+\}\\
+void initialize() \{
+number = 0;\\
+\textbf{reused = reused+1;}\\
+\}\\
+\}\\
+\end{frame}
+\section{object creation}
+\begin{frame}
+    \frametitle{What is object?}
+    Object is a run time entity.\\
+\textbf{Object creation:}\\
+In java, object is created by \textbf{new} keyboard. \\
+
+\textbf{Syntax:}
+
+
+\textless\textless classname \textgreater\textgreater  \textless\textless class variable \textgreater\textgreater = new \textless\textless classname \textgreater\textgreater()\\
+
+Here is the example covering all the above concepts \href{class_object.java}{\color{green}{classobject}}\\
+
+\textbf{Accessing members in class:}
+
+classvariable.method()\\
+classvariable.datamember
+\end{frame}
+
+\begin{frame}
+\frametitle{Examples}
+
+Counter carpark; /* counter objects*/ \\
+...
+carpark = new Counter();\\
+
+Counter entrance, exitDoor; /* newly created counter objects*/ \\
+...\\
+entrance = new Counter(); /* Newly created instance of the Counter class */ \\
+exitDoor = new Counter();/* Newly created instance of the Counter class */ \\
+Method: initialize()\\
+entrance.initialize();\\
+exitDoor.initialize();\\
+\end{frame}
+\begin{frame}
+    \frametitle{copy constructor}
+    Java allows copy constructor.\\
+    Here is the sample program \href{copy_constructor.java}{\color{green}{copy constructor}}
+\end{frame}
+\section{Access modifiers}
+\begin{frame}
+    \frametitle{access modifiers}
+    Access modifiers help to restrict scope of the class, method or datamember.
+    In general, there are four access modifiers.
+    \begin{enumerate}
+        \item public
+        \item private
+        \item protected
+        \item default
+    \end{enumerate}
+    \textbf{public:} Accessible to all.\\
+    \textbf{private:} Accessible to same class, which it is declared.\\
+    \textbf{protected:}Accessible within all classes in the same package and within subclasses in other packages.\\
+    \textbf{Default:} Accessible within classes in the same package.
+\end{frame}
+\begin{frame}
+\frametitle{Example}
+Two accessor methods getNumber() and getReused() are introduced in the above code.\\
+class Counter \{\\
+private int number = 0;\\
+private int reused = 0;\\
+public void add() \{\\
+number = number+1;\\
+\}\\
+public void initialize() \{\\
+number = 0;\\
+reused = reused+1;\\
+\}\\
+/*To access attributes */ \\
+public int getNumber() \{ return number; \} \\
+public int getReused() \{ return reused; \}\\
+\}\\
+\end{frame}
+\section{Overloading}
+\begin{frame}
+    \frametitle{Overloading}
+    \textbf{Overloading:} Method name is same but differ in type of parameters or number of parameters of function.
+    There are two types of overloading:
+    \begin{enumerate}
+        \item Method overloading.
+        \item Constructor overloading.
+    \end{enumerate}
+    Here is the example of method overloading: \href{method_overload.java}{\color{green}{Method overloading}} \\
+    Here is the example of constructor overloading: \href{constructor_overload.java}{\color{green}{Constructor loading}}
+\end{frame}
+\begin{frame}
+\frametitle{Example}
+When a Counter to be incremented other than by 1, we could define another add() method that takes an integer parameter.\\ class Counter \{\\
+private int number = 0;\\
+private int reused = 0;\\
+public void add() \{\\
+number = number+1;\\
+\}\\
+public void add(int x) \{\\
+number = number+x;\\
+\}\\
+public void initialize() \{\\
+number = 0;\\
+reused = reused+1;\\
+\}\\
+public int getNumber() \{ return number; \} \\
+public int getReused() \{ return reused; \}\\
+\}\\
+\end{frame}
+\begin{frame}
+\frametitle{Example of constructor method}
+class Counter \{\\
+private int number, reused;\\
+public void add() \{\\
+number = number+1;\\
+\}\\
+public void initialize() \{
+number = 0;\\
+reused = reused+1;\\
+\}\\
+public int getNumber() \{ return number; \}\\
+public int getReused() \{ return reused; \}\\
+Counter() \{ number = 0; reused = 0; \}\\
+\}\\
+\end{frame}
+\begin{frame}
+\frametitle{Example of constructor overloading}
+class Counter \{\\
+private int number, reused;\\
+public void add() \{\\
+number = number+1;\\
+\}\\
+public void initialize() \{
+number = 0;\\
+reused = reused+1;\\
+\}\\
+public int getNumber() \{ return number; \}\\
+public int getReused() \{ return reused; \}\\
+Counter() \{ number = 0; reused = 0; \} \\
+Counter(int x) \{ number = x; reused = 0; \} \\
+Counter(int x, int y) \{ number = x; reused = y; \} \\
+Counter(float z) \{ number = (int) z; reused = 0; \} \\
+\}\\
+\end{frame}
+\section{Type conversion and casting}
+\begin{frame}
+    \frametitle{Type conversion and type casting}
+    \textbf{widening:} Automatic type conversion.\\
+        example: \\
+                    int i=10;\\
+                    long l;\\
+                    l=i;(no error automatic type conversion).\\
+    \textbf{narrowing:} Manual type casting is required.\\
+    example: \\
+                double i=10.02;\\
+                int j;\\
+                j=i;(error)\\
+                j=int(i);(manual type cast)
+\end{frame}
+\begin{frame}
+    \center \textbf{Questions?}
+\end{frame}
+\begin{frame}
+    \center \textbf{Thank you}
+\end{frame}
+\end{document} 

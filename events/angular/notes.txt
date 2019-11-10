@@ -1,0 +1,12 @@
+## To update the node versions
+
+npm install -g node-sass
+npm install --save-dev node-sass
+npm rebuild node-sass
+
+## 
+Project Console: https://console.firebase.google.com/project/myapp-angular-34160/overview
+Hosting URL: https://myapp-angular-34160.firebaseapp.com
+
+
+https://github.com/AnkitSharma-007/blogsite

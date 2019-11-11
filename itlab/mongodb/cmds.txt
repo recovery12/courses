@@ -1,0 +1,51 @@
+use employee;	// Create and set db(default onject to employee)
+
+db;		// SShow selected database
+
+db.createCollection("employee");	// Create a collection
+
+db.employee.insert({name: "Anurag", age: 20, desg: "analytics"});	// Insert documents
+db.employee.insert({name: "ANURAG", age: 20, desg: "devops"});
+db.employee.insert({name: "anurag", age: 20, desg: "backend"});
+db.employee_addr.insert({hno:"221-B",street:"james",pincode:300214});
+db.employee_addr.insert({hno:"222-B",street:"watson",pincode:301214});
+db.employee_addr.insert({hno:"220-B",street:"crick",pincode:401214});
+
+
+db.employee.update({},{$set: {salary: 20}},{multi: true});	// Add a column
+
+db.employee.update({},{$unset: {salary: 20}},{multi: true});	// Delete a column
+
+db.employee.drop();	// Drop table
+
+db.employee.find();	// Select *
+
+db.employee.find({desg: "devops"});	// Select with where
+
+db.employee.find({desg: {$ne/$lt/$gt: "devops"}});	// Select not equal to
+
+db.employee.find({desg: {$ne: "devops"}}, {age: 20});	// And operator
+
+db.employee.find({name: /nurag/});	// like operator %%
+
+db.employee.update({name: "Arduino"},{$set: {name: "arduino"}},{multi:true});	// Update record
+
+db.employee.update({name: "Anurag"},{$inc: {age: 4}});
+
+db.employee.update({name: "arduino"},{$unset: {name: ""}},{multi:true});	// removes the column
+
+db.employee.deleteOne({desg: "backend"});	// Delete a column
+db.employee.remove({desg: "backend"});
+db.employee.remove();	// remove all
+
+db.employee.distinct("name");	// Distinct values
+
+db.employee.find().pretty();	// Good display
+
+/////// DB REFERENCE //////
+db.people.insert({"_id":ObjectId("53402597d852426020000002"),"address": {"$ref": "address_home","$id": ObjectId("534009e4d852427820000002"),"$db": "company"},name:"Anurag"});
+
+db.address_home.insert({"_id" : ObjectId("534009e4d852427820000002"),"building" : "22 A, Indiana Apt","pincode" : 123456,"city" : "Los Angeles","state" : "California" });
+
+var user = db.people.findOne({name:"Anurag"});
+db[user.address.$ref].findOne({"_id":(user.address.$id)});

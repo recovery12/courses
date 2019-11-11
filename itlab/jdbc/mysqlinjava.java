@@ -21,6 +21,24 @@ public class mysqlinjava
 
          String sql = "CREATE DATABASE itlab_minor";
          stmt.executeUpdate(sql);
+
+         if (con != null)
+         {
+            con.close();
+         }
+
+         Class.forName(JDBC_DRIVER);
+         con = DriverManager.getConnection(JDBC_URL+"itlab_minor", UNAME, PASSWD);
+         stmt = con.createStatement();
+
+         sql = "create table exam (title varchar(50) primary key)";
+         stmt.executeUpdate(sql);
+         sql = "insert into exam values (\"itlab\")";
+         stmt.executeUpdate(sql);
+         sql = "insert into exam values (\"itlab-minor\")";
+         stmt.executeUpdate(sql);
+         sql = "insert into exam values (\"itwlab\")";
+         stmt.executeUpdate(sql);
       }
       catch (SQLException se)
       {

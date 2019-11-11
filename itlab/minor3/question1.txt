@@ -1,0 +1,45 @@
+
+use company;
+
+// Employees
+db.employee.insert({eno: 1, lname: "peddi", fname: "anurag", ext: "p", email: "anurag.peddi1998@gmail.com", ocode: "IND", reportsto: 5, jobt: "backend"});
+
+db.employee.insert({eno: 2, lname: "sarangi", fname: "subhah", ext: "s", email: "subhash1999@gmail.com", ocode: "IND", reportsto: 2, jobt: "frontend"});
+
+// Customers
+db.customers.insert({cno: 1, cname: "Anurag", clname: "peddi", cfname: "anurag", phone: "8919095544", addrl1: "MH-I", addrl2: "UOH", city: "HYD", state: "TN", postal: 504106, country: "IND", sales: 101, climit: 50000});
+
+db.customers.insert({cno: 2, cname: "Subhash", clname: "sarangi", cfname: "subhash", phone: "123456789", addrl1: "MH-I", addrl2: "UOH", city: "HYD", state: "TN", postal: 504106, country: "IND", sales: 102, climit: 50000});
+
+db.customers.insert({cno: 3, cname: "Buncy", clname: "shaddai", cfname: "buncy", phone: "1234567809", addrl1: "MH-I", addrl2: "UOH", city: "HYD", state: "TN", postal: 504106, country: "IND", sales: 102, climit: 40000});
+
+// Orders
+db.orders.insert({onum: 201, odate: "19-10-2019", reqdate: "20-10-2019", shipdate: "21-11-2019", status: "yes", comments: "fine", cusnum: {"$ref":"customers", "$id": ObjectId("5dc99b2f3b99cc4bb3fd8845"),$db: "company"}});
+
+db.orders.insert({onum: 202, odate: "19-11-2019", reqdate: "20-11-2019", shipdate: "21-12-2019", status: "no", comments: "very bad", cusnum: {"$ref":"customers", "$id": ObjectId("5dc99b2f3b99cc4bb3fd8845"),$db: "company"}});
+
+db.orders.insert({onum: 203, odate: "29-11-2019", reqdate: "21-11-2019", shipdate: "21-02-2019", status: "no", comments: "good", cusnum: {"$ref":"customers", "$id": ObjectId("5dc99b783b99cc4bb3fd8847"),$db: "company"}});
+
+// 1Q
+var order = db.orders.find({cusnum: {$ne: 0}});
+for (i = 0; i < 3; i++) { var cn = order.next().cusnum; var a = db[cn.$ref].find({"_id":(cn.$id)}); a.shellPrint();}
+
+//2Q
+var od = db.orderDetails.find({onum: {$ne: 0}});
+for (i = 0; i < 3; i++) {var cn = od.next().onum; var a = db[cn.$ref].find({"onum":(cn.$id)}); a.shellPrint();}
+
+//3Q
+var od = db.offices.find({enum: {$ne: 0}});
+for (i = 0; i < 2; i++) {var cn = od.next().ocode; var a = db[cn.$ref].find({"ocode":cn.$id}); a.shellPrint()}
+
+// OrderDetails
+db.orderDetails.insert({onum: {$ref: "orders", $id: 201, $db: "company"}, pcode: 301, quantity: 3, price: 33.21, olnum: 1001});
+
+db.orderDetails.insert({onum: {$ref: "orders", $id: 202, $db: "company"}, pcode: 302, quantity: 1, price: 3.21, olnum: 1000});
+
+db.orderDetails.insert({onum: {$ref: "orders", $id: 203, $db: "company"}, pcode: 305, quantity: 5, price: 23.1, olnum: 1003});
+
+// Offices
+db.offices.insert({ocode: {$ref: "employee", $id: "IND", $db: "company"}, city: "HYD", phone: "1234567890", addrl1: "DLF", addrl2: "Gachibowli", state: "TN", country: "IND", postal: 500046, territory: "World"});
+
+db.offices.insert({ocode: {$ref: "employee", $id: "PAK", $db: "company"}, city: "HYD", phone: "123456789", addrl1: "DLF", addrl2: "Gachibowli", state: "TN", country: "IND", postal: 500046, territory: "World"});

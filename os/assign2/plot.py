@@ -15,10 +15,10 @@ if __name__ == "__main__":
 
     plt.xlabel("Sigma (process behaviour)")
     plt.xlim(0.5, n+0.5)
-    plt.ylabel("Page Faults")
+    plt.ylabel("Slow Down %")
     plt.ylim(min(arr)-0.5, max(arr)+0.5)
-    plt.suptitle("Variation of slow-down with sigma(Global)", fontsize=15)
+    plt.suptitle("Variation of slow-down with sigma(Local)", fontsize=15)
     plt.title("Frames = 3N/4")
     plt.plot(range(1, n+1), arr)
-    plt.savefig("sigma-global.png", bbox_inches="tight")
+    plt.savefig("sigma-local.png", bbox_inches="tight")
     plt.show()

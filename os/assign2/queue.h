@@ -1,5 +1,5 @@
 /********* DEFINED CONSTANTS *********/
-#define   MAXQ        1536
+#define   MAXQ        4096
 
 /********* DATA-STRUCTURE DEFINITION *********/
 typedef struct queue2

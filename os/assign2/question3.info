@@ -1,0 +1,36 @@
+The operating System which i have choosen for the case study is Linux
+
+In short:
+"The major number is actually the offset into the kernel's device driver table, which tells the kernel what kind of device it is (whether it is a hard disk or a serial terminal). The minor number tells the kernel special characteristics of the device to be accessed."
+
+In Linux System all the device drivers information is stored in a directory named /dev
+
+As linux treats every thing as files, even these device drivers are also treated as files
+
+There are two types of devices in linux, they are character and block devices
+the command `ls -l /dev` gives a long listing of all the device drivers in the directory
+Each line displays some details about a device driver, the first character of each line specifies whether the device is character or block device.
+
+Image: 
+
+Major number is used to identify the type of device driver and minor number is used to identify the specific device for the correspoding driver
+
+generally minor number is used only by the driver specified by the major number, other parts of kernel just pass them to the device driver.
+
+A major number can also be assigned to multiple device drivers.
+
+In the command `mknod /dev/user_defined c 214 32`
+The last two arguments are the major and minor specified by the user to insert a device.
+
+The range of minor number is [0, 255] inclusive
+
+Most of the time many major numbers are alraedy assigned so picking a new unique major number for your decvice will be difficult
+
+If you are very much afarid of selecting a major number set it to 0 while calling register_chrdev it allocates a free number and returns it to you.
+
+If it returns a negative value, means you have done something wrong
+For user_defined drivers it's always better to use dynamic number allocation
+
+If you want to release your driver into market it's better to register it in the kernal of the os.
+
+cat /proc/devices shows all the registered devices in the system along with their major numbers.

@@ -16,7 +16,7 @@ def write_proc(fhand, n):
     for i in range(n):
         pgnum = np.random.randint(const.page_llimit, const.page_ulimit+1)
         behave = np.random.randint(const.behave_l, const.behave_u+1)
-        fhand.write(str(pgnum)+" "+str(i+1)+"\n")
+        fhand.write(str(pgnum)+" "+str(behave)+"\n")
 
 if __name__ == '__main__':
     n = int(input("Enter number of processes: "))

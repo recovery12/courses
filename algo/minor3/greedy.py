@@ -63,7 +63,7 @@ if __name__ == '__main__':
     if n <= 0:
         print("SuperCity should have atleast one building.")
         sys.quit()
-    elif n == 1:
+    elif n in [1, 2]:
         print("Minimum number of moves are: 1")
         sys.quit()
     

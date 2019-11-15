@@ -3,9 +3,10 @@
 ** OS -> 12/11
 
 * Presentations
-** Algo -> 14/11
 
 * Minors
 ** OS -> 15/11
 
 * Projects
+
+#### Feeling bored, check your todo list

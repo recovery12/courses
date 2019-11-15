@@ -1,0 +1,8 @@
+
+-> add DIRECTORY.md for dfs and Numerical Analysis
+
+-> File transfer using sockets
+
+-> Algorithms
+
+-> Cows and Bulls website

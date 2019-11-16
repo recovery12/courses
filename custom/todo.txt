@@ -6,3 +6,5 @@
 -> Algorithms
 
 -> Cows and Bulls website
+
+-> Add page replacements in os and multi queue

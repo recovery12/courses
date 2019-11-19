@@ -1,4 +1,6 @@
 
+-> add dbms-cheatsheet after itlab
+
 -> add DIRECTORY.md for dfs and Numerical Analysis
 
 -> File transfer using sockets
@@ -7,6 +9,7 @@
 
 -> Cows and Bulls website and gui in pygame
 -> add sudoku
--> add colors in rps
 
 -> Add page replacements in os and multi queue
+
+-> visit https://education.github.com/students

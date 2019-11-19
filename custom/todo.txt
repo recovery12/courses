@@ -5,6 +5,8 @@
 
 -> Algorithms
 
--> Cows and Bulls website
+-> Cows and Bulls website and gui in pygame
+-> add sudoku
+-> add colors in rps
 
 -> Add page replacements in os and multi queue

@@ -104,6 +104,6 @@ select e.fname, p.pname
 from employees as e, project as p
 where e.fname in (select e.fname from employees as e left outer join project as p on e.eid = p.eid group by fname having count(*) > 1) and e.eid = p.eid;
 
-drop table project;
-drop table employees;
-drop database lab8;
+-- drop table project;
+-- drop table employees;
+-- drop database lab8;

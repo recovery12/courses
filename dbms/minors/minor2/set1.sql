@@ -38,3 +38,9 @@ select eid from employees where salary in (select max(salary) from employees whe
 select from_1, to_1
 from flights 
 where distance < (select cruisingrange from aircraft where aid in (select min(aid) as aid from (select max(aid) as aid from certified group by eid) as der));
+
+-- or
+
+select from_1, to_1 
+from flights 
+where distance <= (select min(der.dist) from (select max(cruisingrange) as dist from aircraft as a, certified as c where a.aid = c.aid group by eid) as der);

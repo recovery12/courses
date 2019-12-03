@@ -1,6 +1,4 @@
 
--> add dbms-cheatsheet after itlab
-
 -> add DIRECTORY.md for dfs and Numerical Analysis
 
 -> File transfer using sockets

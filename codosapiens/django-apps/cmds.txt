@@ -1,0 +1,9 @@
+django-admin startproject <projectname>
+change the shebang in manage.py to python3
+
+can change the outer-most project folder name
+
+settings.py is like the configration file for your website
+urls.py says go to the mentioned url and do the function
+
+python3 manage.py runserver #Starts the server on localhost at port 8000

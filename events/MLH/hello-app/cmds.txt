@@ -1,2 +1,22 @@
 Installing npm
 --> sudo apt-get install npm
+
+Create app dir
+--> mkdir <appname>
+
+Goto app directory
+--> cd <appname>
+
+Initialize it
+--> npm init
+
+Install express
+--> npm -i install express --save
+
+Create a file named index.js
+and add following content
+
+Run server
+node index.js
+
+then goto azure and deploy it

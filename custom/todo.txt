@@ -1,5 +1,5 @@
 
--> add DIRECTORY.md for dfs and Numerical Analysis
+-> add DIRECTORY.md for dfs
 
 -> File transfer using sockets
 
@@ -14,4 +14,4 @@
 
 -> visit https://education.github.com/students
 
--> check the about.me pageand try to create one for you
+-> check the about.me page and try to create one for you

@@ -7,3 +7,54 @@ settings.py is like the configration file for your website
 urls.py says go to the mentioned url and do the function
 
 python3 manage.py runserver #Starts the server on localhost at port 8000
+
+python3 manage.py startapp <app name> # Creates an app
+
+in the <app name> dir we have .py called apps.py which is the config file
+
+models.py is like the blueprint
+views.py is like request and response to a user
+urls.py contains the address to which it have to nav
+
+create a urls.py in the specific app and include the view
+
+in the main urls.py include what should be done when a specific url is requested in the list urlpatterns
+
+To pass parameters put <int:album_id>
+
+Always you should or import the corresponding modules
+
+./manage.py migrate sinks all the apps with the database
+(and also after every makemigrations)
+
+in the music/ create a class models.py and the variable in the class will become the columns of a table.
+
+and every class in the models.py will inherit the base class models.Model
+
+giving foreign keys is column name = models.ForeignKey(Album, on_delete=models.CASCADE)
+After creating the models to apply them run the command
+./manage.py makemigrations <appname>
+./manage.py sqlmigrate <appname> <idname>
+<idname> is obtained by running the makemigrations command
+
+After creating the app give the app config name in the main settings.py file (<appname>/apps.py)
+
+./manage.py shell -> opens the database shell
+This shell can be used to add database entries in the tables
+select in this is similar to declaring class and can be saved by
+a.save()
+a.id ~ a.pk
+Album.objects.filter(id=1) # Searching for id one
+Album.objects.filter(artist__startswith="Tay")
+
+To create an admin
+./manage.py createsuperuser
+
+To delete a user
+./manage.py shell
+from django.contrib.auth.models import User
+User.objects.get(username=<uname>, is_superuser=True).delete()
+
+in an app goto admin and then register the class to see them in page
+from .models import <class name>
+admin.site.register(<class name>)

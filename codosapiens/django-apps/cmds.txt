@@ -64,3 +64,23 @@ all_album = Album.objects.all()
 
 for writing a template in django
 from django.template import loader
+u can loda the template file by using loader.get_template(<path>)
+
+make a dir called template in that make one sub-dir <app-name> in that u can put ur frontend files
+
+to request the template we use template.render(<parameters>)
+
+This is how u use python django in html
+    <ul>
+        {% for album in all_albums %}
+        <li> <a href="/music/{{ album.id }}/"> {{ album.album_title }} </a> </li>
+        {% endfor %}
+    </ul>
+for 404error
+from django.http import Http404
+
+we need to migrate only if add or delete attrs in a class else no need
+
+<album object>.<referncingobjectname>_set.all()  -> displays all the related objects
+
+to remove the hardcoded urls change /music/{{ album_id }}/ to {% url 'detail' album_id %}

@@ -12,11 +12,11 @@
 
 -> Base64 converter
 
--> visit https://education.github.com/students
-
 -> check the about.me page and try to create one for you
 
 -> anuragpeddi.com
+
+-> check your MSP
 
 ######## INTERNS ########
 -> https://www.iiitd.ac.in/placement/summer-internships

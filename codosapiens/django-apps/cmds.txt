@@ -58,3 +58,9 @@ User.objects.get(username=<uname>, is_superuser=True).delete()
 in an app goto admin and then register the class to see them in page
 from .models import <class name>
 admin.site.register(<class name>)
+
+to get the details in the database
+all_album = Album.objects.all()
+
+for writing a template in django
+from django.template import loader

@@ -84,3 +84,18 @@ we need to migrate only if add or delete attrs in a class else no need
 <album object>.<referncingobjectname>_set.all()  -> displays all the related objects
 
 to remove the hardcoded urls change /music/{{ album_id }}/ to {% url 'detail' album_id %}
+
+you can also use get_object_or_404 instead of the Http404 to make ur code condense.
+
+++++++++ Delete a migration ++++++++
+You can not run the migrations successfully?
+
+    Go into the migrations folder in your app.
+
+    Look for the migration file where you would like to go back to. (for example 0012_post_category.py)
+
+    go in the terminal write: ./manage.py migrate yourAppName 0012 (this is just the example number) and hit enter
+
+    if everything goes well. Delete the other migrations which came after this number in your migrations folder.
+
+use csrf_tokens for the security issues

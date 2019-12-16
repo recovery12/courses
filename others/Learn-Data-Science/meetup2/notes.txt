@@ -1,0 +1,17 @@
+Gradient descent
+-> Batch
+-> stochastic
+-> mini-batch
+
+adam optimizer
+
+underfit -> high bais, low variance
+overfit -> low bais, high variance
+
+epoch vs iteration
+
+playground.tensorflow.org
+
+google seedbank
+ai experiments
+teachable machine

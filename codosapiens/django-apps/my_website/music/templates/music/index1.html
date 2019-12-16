@@ -4,8 +4,26 @@
 
 <h2> {{ album.artist }} </h2>
 
-<ul>
+<!-- <ul>
     {% for song in album.song_set.all %}
         <li> {{ song.song_title }} </li>
     {% endfor %}
-</ul>
+</ul> -->
+
+{% if error_message %}
+    <p> <strong> {{ error_message }} </strong> </p>
+{% endif %}
+
+<form action="{% url 'music:favorite' album_id %}" method="POST">
+    {% csrf_token %}
+    {% for song in album.song_set.all %}
+        <input type="radio" id="song{{ forloop.counter }}" name="song" value="{{ song.id }}">
+        <label for="song{{ forloop.counter }}">
+            {{ song.song_title }}
+            {% if song.is_favorite %}
+                <img src="i.imgur.com/b9b13Rd.png">
+            {% endif %}
+        </label><br>
+    {% endfor %}
+    <input type="submit" value="Add to favorites">
+</form>

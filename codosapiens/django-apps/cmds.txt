@@ -37,7 +37,7 @@ After creating the models to apply them run the command
 ./manage.py sqlmigrate <appname> <idname>
 <idname> is obtained by running the makemigrations command
 
-After creating the app give the app config name in the main settings.py file (<appname>/apps.py)
+After creating the app give the app config name in the main settings.py file (<appname>/apps.py) like home.apps.HomeConfig in INSTALLED_APPS list
 
 ./manage.py shell -> opens the database shell
 This shell can be used to add database entries in the tables

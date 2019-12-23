@@ -1,3 +1,9 @@
 Introduction
 
 basics of computer vision and ai model creation
+
+CV
++++
+Classification
+Segmentation
+Detection

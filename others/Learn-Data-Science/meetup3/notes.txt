@@ -1,0 +1,28 @@
+look at hypothesis testing
+
+metrics -> rmse, mse (sensitive to outliers), mae
+
+Resources:
+----------
+https://www.dataquest.io/blog/understanding-regression-error-metrics/
+
+write a program with class which calculates metrics for regression
+
+		T	F
+T	True +ve	False +ve
+F	False -ve	True -ve
+
+dummy varibles make a n-1 variable sring
+one hot encoding make a n variable string
+
+least error obtained from the loss function
+imputation techniques
+
+R^2 coefficient of determination
+
+logistics regression odds ratio
+log(odds) p/(1-p)
+
+roc and auc(as high as possible) curves
+
+pandas profiling

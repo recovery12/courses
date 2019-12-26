@@ -1,0 +1,19 @@
+gradient descent will converge if all the features are in the same range, we can obtain that by feature scaling mean normalization, minmax scaling etc.,
+
+automatic convergence test:- converge if diff is < 10^-3
+
+normal equations are similar to least square method
+
+coefficients = (X^TX)^(-1)X^Ty for multiple linear regression
+
+if you use normal equations there is no need of feature scaling,
+but in gradient descent you have to
+
+when n is very large (n > 10000)
+	gradient descent works well 
+	normal equations needs many computations
+
+X^TX is singular if it has linearly dependent features
+and too many features(m<=n) (then do regularization)
+
+pseudo inverse computes the inverse even if it's an singular matrix

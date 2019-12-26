@@ -1,0 +1,7 @@
+Gradient Descent
+
+- start with some values of a and b
+- find the cost function value and from there start minimizing them
+
+linear regression cost function is a convex function
+if the gradient descent uses all the training set then it's called as batch gradient descent

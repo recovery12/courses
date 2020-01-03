@@ -1,6 +1,4 @@
 
--> add DIRECTORY.md for dfs
-
 -> File transfer using sockets
 
 -> Algorithms
@@ -17,6 +15,8 @@
 -> anuragpeddi.com
 
 -> check your MSP
+
+-> apply for neural networks and deep learning
 
 ######## INTERNS ########
 -> https://www.iiitd.ac.in/placement/summer-internships

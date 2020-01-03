@@ -1,0 +1,26 @@
+classification we use logistic regression
+
+including parameters descision boundary(is a property of the hypothesis) is also important
+
+cost(h, y) = -log(h)   if y = 1
+           = -log(1-h) if y = 0 which gurantees a convex function to find the global minimum.
+
+if we run a gradient descent on a non-convex function it's very unlikely to get a global minimum.
+
+to check whether the algorithm is converging or not we plot J(theta) vs number of iterations
+
+there are also some of the optimization algorithms otherthan gradient descent
+they are:
+	conjugate gradient
+	BFGS
+	L-BFGS
+pros are much faster than gd
+no need of picking alpha(learning rate)
+
+cons are more complex
+
+fminunc is the function used in octave to find the optimization minimum.
+
+Multi-class classification
+one-vs-all
+	-> In this for every class we fit a logistic regression and compute k different classifiers and for a new input take the class which gives the maximum probabiity. (basically choosing one class and lumping all the others into a single class)

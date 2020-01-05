@@ -24,3 +24,24 @@ fminunc is the function used in octave to find the optimization minimum.
 Multi-class classification
 one-vs-all
 	-> In this for every class we fit a logistic regression and compute k different classifiers and for a new input take the class which gives the maximum probabiity. (basically choosing one class and lumping all the others into a single class)
+
+if we have too many features then, it will fit very well to the training set but fail to generalize the testikng set.
+
+To avoid 
+overfitting we can reduce the features
+-> select good features
+-> model selection(feature engineering automated)
+regularization
+-> keep all features but reduce the magnitude by it's contribution.
+
+Regularization
+   small values for paraeters
+   simpler hypothesis
+   less prone to overfitting
+
+now cost function becomes
+	cost + lambda*penalty
+	if lambda is very large, then we fail to even fit training set
+
+in regularization we don't have penalty for theta0
+this can also be applied for the normal equations.

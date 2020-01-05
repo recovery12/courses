@@ -22,3 +22,5 @@
 -> https://www.iiitd.ac.in/placement/summer-internships
 
 -> https://cse.iith.ac.in/admissions/internships.html
+
+-> https://www.tifr.res.in/~vsrp/

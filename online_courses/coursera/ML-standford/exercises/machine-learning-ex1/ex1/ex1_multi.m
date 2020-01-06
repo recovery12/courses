@@ -50,6 +50,11 @@ pause;
 fprintf('Normalizing Features ...\n');
 
 [X mu sigma] = featureNormalize(X);
+mu_y = mean(y);
+std_y = std(y);
+for i = 1:length(y),
+    y(i) = (y(i) - mu_y)/std_y;
+end;
 
 % Add intercept term to X
 X = [ones(m, 1) X];
@@ -104,7 +109,7 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 % Recall that the first column of X is all-ones. Thus, it does
 % not need to be normalized.
-price = 0; % You should change this
+price = sum(theta.*[1;1650;3]); % You should change this
 
 
 % ============================================================

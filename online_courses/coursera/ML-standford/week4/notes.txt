@@ -1,0 +1,14 @@
+Including quadratic or cubic terms in the hypothesis to solve the problem may not be the solution always
+
+Our brain actually follows "One learning algorithm"
+One of the non-linear hypothesis representation is nueral networks.
+
+In neural networks, parameters are also called as the weights.
+
+Activation function:
+
+The first layer is called as input layer, last layer is called as output layer and all the others are called as the hidden layers.
+
+a_i^j: activation of unit i in layer j
+
+if network has sj units in layer j, sj+1 units in layer j+1 then theta(j) will be of dimension s(j+1) X (sj+1).

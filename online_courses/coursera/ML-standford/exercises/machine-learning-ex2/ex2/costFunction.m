@@ -20,11 +20,34 @@ grad = zeros(size(theta));
 % Note: grad should have the same dimensions as theta
 %
 
+function hx = h(theta, x),
+    z = sum(transpose(theta).*x);
+    hx = 1/(1+e^(-z));
+end;
 
+for i = 1:m,
+    hx = h(theta, X(i, :));
+    J = J + (-y(i)*log(hx)-(1-y(i))*log(1-hx));
+end;
+J = J/m;
 
+for i = 1:m,
+    hx = h(theta, X(i, :));
+    grad(1) = grad(1) + (hx - y(i));
+end;
+grad(1) = grad(1)/m;
 
+for i = 1:m,
+    hx = h(theta, X(i, :));
+    grad(2) = grad(2) + (hx - y(i))*X(i, 2);
+end;
+grad(2) = grad(2)/m;
 
-
+for i = 1:m,
+    hx = h(theta, X(i, :));
+    grad(3) = grad(3) + (hx - y(i))*X(i, 3);
+end;
+grad(3) = grad(3)/m;
 
 
 % =============================================================

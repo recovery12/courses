@@ -7,4 +7,9 @@
 
 * Projects
 
+* Courses
+    * Coursera
+    * Udacity
+    * GitHub
+
 #### Feeling bored, check your todo list

@@ -12,3 +12,28 @@ The first layer is called as input layer, last layer is called as output layer a
 a_i^j: activation of unit i in layer j
 
 if network has sj units in layer j, sj+1 units in layer j+1 then theta(j) will be of dimension s(j+1) X (sj+1).
+
+In forward propagation, we start off from the input layer and towards the output layer.
+
+For a binary classification, we can use NXOR, neural network with proper weights can also act as logical operators.
+
+CNN -> good for image recognition
+LSTM -> good for speech
+
+The number in the neuron is called as activation.
+
+ReLU(a) = max(0, a) Rectified linear unit
+
+Gradient gives the steepest increase.
+
+For the output to be more, increase in weights of highly active neuron will inturn increase the chance of the output neuron.
+
+For all the positive edges increase the activation, and for all the negative neurons decrease the activation.
+
+To increase the activation of one neuron
+there are three ways:-
+	Increase b
+	Increase wi (in proportion to ai)
+	Change ai (in proportion to wi)
+hebbian theory
+

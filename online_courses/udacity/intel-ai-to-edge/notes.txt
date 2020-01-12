@@ -7,3 +7,8 @@ CV
 Classification
 Segmentation
 Detection
+
+NN architecture's
+Single Shot MulitBox(SSD)
+ResNet
+MobileNet

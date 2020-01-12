@@ -28,16 +28,45 @@ grad = zeros(size(theta));
 %       the cost function and gradient computations. 
 %
 % Hint: When computing the gradient of the regularized cost function, 
-%       there're many possible vectorized solutions, but one solution
+%       therere many possible vectorized solutions, but one solution
 %       looks like:
 %           grad = (unregularized gradient for logistic regression)
 %           temp = theta; 
-%           temp(1) = 0;   % because we don't add anything for j = 0  
+%           temp(1) = 0;   % because we dont add anything for j = 0  
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
+function hx = h(theta, x),
+    z = sum(transpose(theta).*x);
+    hx = 1/(1+e^(-z));
+end;
 
+value = 0;
+for i = 2:length(theta),
+    value = value + theta(i)^2;
+end;
 
+for i = 1:m,
+    hx = h(theta, X(i, :));
+    J = J + (-y(i)*log(hx)-(1-y(i))*log(1-hx));
+end;
+J = J/m+(lambda/(2*m))*value;
+
+n = length(theta);
+
+for i = 1:m,
+    hx = h(theta, X(i, :));
+    grad(1) = grad(1) + (hx - y(i));
+end;
+grad(1) = grad(1)/m;
+
+for j = 2:n,
+    for i = 1:m,
+        hx = h(theta, X(i, :));
+        grad(j) = grad(j) + (hx - y(i))*X(i, j);
+    end;
+    grad(j) = grad(j)/m + (lambda/m)*theta(j);
+end;
 
 
 

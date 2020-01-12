@@ -1,0 +1,33 @@
+Captcha for Visually impaired
+
+If you do not use a CAPTCHA, then you ay be flooded with spam or bogus submissions, making your job of determining when a response is needed much harder. If on the other hand, you have a site that requires users to login, and you have a checkout or product purchase form. If the user is already logged in, then you will not need a CAPTCHA on your checkout form since the user has already been authenticated when he or she logged in.
+
+Process :
+
+1) We maintain a hash table of hashes of answers user write in the textboxes at client side and audios in a database at server side . Audios can be
+ 
+  * Sounds of animals and things.
+  * Simple questions like No of colours in Indian flag ?, What do you use to play cricket ?, type 9 in words ! , Unit of Force ! etc. These are just examples.
+ 
+ We can frame these kind questions which a user with basic intellectuality can decode the sound and answer easily.  
+
+2) We record logs of executions of our website's audio captcha from every IP address.
+
+3) Client opts audio captcha and in our website we use a pseudo-random generator(at server side) to select one of the options of hash table and issue a sound to user.
+
+4) Now, user at client side writes corresponding string of the sound in the text box and client sends hash of the string to the server. Server cross checks against the hash value of the issued sound. If it is correct, it proves human else we report user as wrong string and allows user to select a new sound captcha. After three unsuccessful trials from an IP, we block it for a period of 5 minutes.
+
+5) We assign a time limit for each captcha and captcha dies after 8 seconds after sound is issued.
+
+This above process can be implemented in Python for demonstration purposes.
+
+Please refer this link
+
+https://www.dev2qa.com/how-to-generate-random-captcha-in-python/
+
+Please suggest some changes and correct me if I am wrong in something.
+
+
+ 
+
+

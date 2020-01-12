@@ -37,3 +37,5 @@ there are three ways:-
 	Change ai (in proportion to wi)
 hebbian theory
 
+ReLU is used for the hidden layers, sigmoid learns very slow(it can be used for last layer).
+

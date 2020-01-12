@@ -1,0 +1,2 @@
+install captcha module
+-> sudo pip3 install captcha

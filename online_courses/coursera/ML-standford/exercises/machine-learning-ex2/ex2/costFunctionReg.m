@@ -24,7 +24,7 @@ end;
 
 value = 0;
 for i = 2:length(theta),
-    value = value + theta(i);
+    value = value + theta(i)^2;
 end;
 
 for i = 1:m,

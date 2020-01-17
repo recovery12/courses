@@ -1,0 +1,22 @@
+boundary line:
+w1x1 + w2x2 + b(bias) = 0 (2d)
+Wx + b = 0
+
+prediction is 1 if Wx+b >= 0
+		if Wx+b < 0
+
+perception is the logic which is present in the nodes.
+
+perception algorithms
+
+for gradient descent the error function needs to be continuous and differntiable.
+
+softmax function.
+
+negative of the logirithm of the probablities is called as cross entropies.
+Cross entropy should be as low as possible.
+
+it is a sum of the -log(factors)
+factors may be happening/not happending a event
+
+check cross entropy once again.

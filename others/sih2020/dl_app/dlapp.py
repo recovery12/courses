@@ -5,15 +5,11 @@ from PIL import Image, ImageTk
 from tkinter.ttk import Button, Frame
 from tkinter.filedialog import askopenfile
 
-# Global variables
-global cvr
-
 # Code for manipulating the main screen
 root = tk.Tk()
 root.title("Automated Land Classification using Deep learning.")
-root.geometry('1200x1000')
+root.geometry('800x600')
 root.config(bg = "#828481")
-root.resizable(True, True)
 root.update()
 
 WIDTH = root.winfo_width()
@@ -46,7 +42,7 @@ def display_image():
         cvl = tk.Canvas(leftFrame, width = 350, height = 300)
         cvl.pack(side='top', fill='both', expand='yes')
         cvl.create_image(10, 10, image=photo, anchor='nw')
-        tk.mainloop()
+        cvl.mainloop()
     else:
         print("There is no image to display")
 
@@ -59,7 +55,7 @@ def predict_image():
         cvr = tk.Canvas(rightFrame, width = 350, height = 300)
         cvr.pack(side='top', fill='both', expand='yes')
         cvr.create_image(10, 10, image=photo, anchor='nw')
-        tk.mainloop()
+        cvr.mainloop()
 
 btn = Button(root, text='Upload', command= lambda:display_image())
 btn.pack(side = tk.TOP, pady = 10)

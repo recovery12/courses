@@ -1,0 +1,21 @@
+1. HTTP Version
+	-> Browser - 1.1
+	-> Server - 1.1
+
+2. Language Accepted: en-US
+
+3. Computer:- 10.5.1.64, gaiga,cs,umass.edu.server:- 128.119.245.12
+
+4. 200
+
+5. THU, 23 JAN 2020 06:59:01
+
+6. 128
+
+7.
+
+8. No
+
+14. STATUS CODE: 200, PHRASE: OK
+
+15. 2 Reassembled TCP Segments (4860 bytes):

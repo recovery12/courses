@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <title> ML API </title>
+
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+
+    <body>
+    <div class="login">
+	    <h1>Predict x value</h1>
+
+        <!-- Main Input For Receiving Query to our ML -->
+        <!-- <form action="{{ url_for('predict')}}"method="post"> -->
+            <!-- <input type="text" name="x1" placeholder="x1" required="required"/> -->
+            <!-- <input type="text" name="x2" placeholder="x2" required="required"/> -->
+    <!--  -->
+            <!-- <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button> -->
+        <!-- </form> -->
+        <form action = '/upload' method = 'post' enctype="multipart/form-data">
+            <input type=file name="upload">
+            <input type="submit" name="Submit" value="Upload Image">
+        </form>
+    <br>
+    <br>
+
+    <div class=uploads style = "position:absolute" left=0px>
+        {% if file_name %}
+            <img src='{{ url_for(file_name) }}'>
+        {% else %}
+            <div> File yet to be uploaded </div>
+        {% endif %}
+    </div>
+    </body>
+</html>

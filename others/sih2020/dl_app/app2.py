@@ -16,6 +16,9 @@ root.update()
 WIDTH = root.winfo_width()
 HEIGHT = root.winfo_height()
 
+scrollbar = tk.Scrollbar(root)
+scrollbar.pack(side='right', fill='y')
+
 topFrame = Frame(root, width=WIDTH, height=40)
 topFrame.pack(pady=10, side='top')
 
@@ -30,7 +33,7 @@ bottomFrame.pack(pady=10, side='bottom')
 
 def upload_file():
     try:
-        file = askopenfile(mode="r", filetypes=[('Image files', '*.png')])
+        file = askopenfile(mode="r", filetypes=[('Image files', '*.png'), ('Image files', '*.tif')])
         return file.name
     except:
         print("File not uploaded")

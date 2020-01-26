@@ -20,3 +20,26 @@ it is a sum of the -log(factors)
 factors may be happening/not happending a event
 
 check cross entropy once again.
+
+model complexity graph
+overfitting -> stops generalizing and starts memorizing
+
+early-stopping is an important technique in determining the correct parameter.
+
+large coefficients gives overfitting
+
+l1 is good for feature selection
+l2 is good for training models
+
+l1 gives a sparse vector
+l2 gives vetors in real numbers
+
+dropout is turning off the nodes in the neural networks, to get a unifrom training.
+
+to avoid the vanishing gradient problem, we use different activation functions.
+
+stochastic gradeint dataset is taking smaller amounts of data and running the neural networks.
+
+Read about momentum
+
+torchvision is a lib where you can find datasets.

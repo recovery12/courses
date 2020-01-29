@@ -9,7 +9,6 @@
 /********* FUNCTION DECLARATION *********/
 bool is_empty(FILE *fp);
 void rm_comments(FILE *ifp, FILE *ofp);
-void rm_comments_mul(FILE *ifp, FILE *ofp);
 
 /********* MAIN STARTS HERE *********/
 int main(int argc, char **argv)
@@ -38,9 +37,9 @@ int main(int argc, char **argv)
     ofp = fopen(ofile, "w");
 
     rm_comments(ifp, ofp);
-    ifp = fopen(ifile, "r");
-    ofp = fopen(ofile, "w");
-    rm_comments_mul(ifp, ofp);
+
+    fclose(ifp);
+    fclose(ofp);
 
     exit(0);
 }
@@ -65,7 +64,7 @@ bool is_empty(FILE *fp)
 void rm_comments(FILE *ifp, FILE *ofp)
 {
     int        i, j;
-    bool       is_comment, cond1, cond2;
+    bool       single_comment = false, multi_comment = false;
     char       outline[MAX], line[MAX];
 
     if (is_empty(ifp))
@@ -77,66 +76,23 @@ void rm_comments(FILE *ifp, FILE *ofp)
     while (fgets(line, MAX, ifp))
     {
         i = 0, j = 0;
-        is_comment = false;
-        outline[i] = '\0';
+        if (single_comment)
+        {
+            single_comment = false;
+        }
+
+        outline[j] = '\0';          // Initializing the output line
         while (line[i] != '\n')
         {
-            if (!is_comment)
+            if (!multi_comment && !single_comment)
             {
-                cond1 = (line[i] == '/' && line[i+1] == '/');
-                cond2 = (line[i] == '/' && line[i+1] == '*');
                 if (line[i] == '/' && line[i+1] == '/')
                 {
-                    is_comment = true;
+                    single_comment = true;
                 }
                 else if (line[i] == '/' && line[i+1] == '*')
                 {
-                    is_comment = true;
-                }
-                else
-                {
-                    outline[j] = line[i];
-                    j = j + 1;
-                }
-            }
-            i = i + 1;
-        }
-        outline[j] = '\0';
-        if (strlen(outline) != 0)
-        {
-            fprintf(ofp, "%s\n", outline);
-        }
-    }
-
-    fclose(ifp);
-    fclose(ofp);
-
-    return ;
-}
-
-void rm_comments_mul(FILE *ifp, FILE *ofp)
-{
-    int        i, j;
-    bool       is_comment = false;
-    char       outline[MAX], line[MAX];
-
-    if (is_empty(ifp))
-    {
-        printf("The given input file is an empty file\n");
-        exit(3);
-    }
-
-    while (fgets(line, MAX, ifp))
-    {
-        i = 0, j = 0;
-        outline[i] = '\0';
-        while (line[i] != '\0')
-        {
-            if (!is_comment)
-            {
-                if (line[i] == '/' && line[i+1] == '*')
-                {
-                    is_comment = true;
+                    multi_comment = true;
                 }
                 else
                 {
@@ -146,24 +102,20 @@ void rm_comments_mul(FILE *ifp, FILE *ofp)
             }
             else
             {
-                if (line[i] == '*' && line[i+1] == '/')
+                if (multi_comment && (line[i] == '*' && line[i+1] == '/'))
                 {
-                    is_comment = false;
+                    multi_comment = false;
                     i = i + 1;
                 }
             }
             i = i + 1;
         }
-        outline[j] = '\0';
-        printf("%s is line %ld\n", line, strlen(outline));
-        if (strlen(outline) != 0)
+        outline[j] = '\0';        // Null Char at the end of the line.
+        if (strlen(outline) != 0 && !multi_comment)
         {
             fprintf(ofp, "%s\n", outline);
         }
     }
-
-    fclose(ifp);
-    fclose(ofp);
 
     return ;
 }
